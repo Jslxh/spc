@@ -1,0 +1,10 @@
+{
+  "execution_timestamp_utc": "2026-10-22T16:25:28.627329+00:00",
+  "python_version": "3.12.13 (main, Jul 30 2026, 11:09:03) [GCC 11.5.0 20240719 (Red Hat 11.5.0-5)]",
+  "platform": "Linux-7.2.8-arch1-2-x86_64-with-glibc2.34",
+  "architecture": "64bit",
+  "great_expectations_available": true,
+  "great_expectations_version": "1.24.0",
+  "pandas_version": "3.1.0",
+  "numpy_version": "2.5.4"
+}

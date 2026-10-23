@@ -1,0 +1,39 @@
+{
+  "great_expectations": {
+    "config_suite": "configs/gx_thresholds_daily_metrics.json",
+    "cnt_mean_bounds": [
+      77.186,
+      208.683
+    ],
+    "temp_null_rate_bounds": [
+      0.0,
+      0.01
+    ],
+    "row_count_bounds": [
+      20.0,
+      24.0
+    ],
+    "allow_null": false
+  },
+  "shewhart_individuals": {
+    "center_line": 142.934581,
+    "ucl": 208.68302,
+    "lcl": 77.186143,
+    "sigma_hat": 21.916146,
+    "basis": "Phase I moving-range divisor d2=1.128"
+  },
+  "p_chart": {
+    "p_bar": 0.0,
+    "zero_defect_policy": "flag any batch with > 0 defects",
+    "effective_threshold": 0.01
+  },
+  "cusum": {
+    "mu_0": 142.934581,
+    "sigma_0": 21.916146,
+    "k": 0.5,
+    "h": 5.0,
+    "two_sided": true,
+    "reset_policy": "none",
+    "alert_on_missing": true
+  }
+}

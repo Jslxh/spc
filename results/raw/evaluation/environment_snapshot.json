@@ -1,0 +1,25 @@
+{
+  "timestamp_utc": "2026-10-23T04:18:51.952833+00:00",
+  "runtime": {
+    "python_version": "3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]",
+    "platform": "Linux-7.2.8-arch1-2-x86_64-with-glibc2.44",
+    "pandas_version": "3.0.6",
+    "numpy_version": "2.5.3"
+  },
+  "input_files": {
+    "ground_truth_abrupt": "/home/jslxh/PROJETCS/spc/data/processed/drift/ground_truth_abrupt_shift_cnt.json",
+    "ground_truth_gradual": "/home/jslxh/PROJETCS/spc/data/processed/drift/ground_truth_gradual_null_temp.json",
+    "daily_metrics_abrupt": "/home/jslxh/PROJETCS/spc/results/processed/daily_metrics_abrupt_shift_cnt.csv",
+    "daily_metrics_gradual": "/home/jslxh/PROJETCS/spc/results/processed/daily_metrics_gradual_null_temp.csv",
+    "shewhart_cnt": "/home/jslxh/PROJETCS/spc/results/processed/monitoring_shewhart_cnt_mean.csv",
+    "p_chart_temp": "/home/jslxh/PROJETCS/spc/results/processed/monitoring_p_chart_temp_null_rate.csv",
+    "cusum_cnt": "/home/jslxh/PROJETCS/spc/results/processed/monitoring_cusum_cnt_mean.csv",
+    "gx_abrupt_daily": "/home/jslxh/PROJETCS/spc/results/raw/gx/abrupt_shift_cnt/daily_summary.csv",
+    "gx_gradual_daily": "/home/jslxh/PROJETCS/spc/results/raw/gx/gradual_null_temp/daily_summary.csv"
+  },
+  "output_files": {
+    "comparative_daily_alerts_csv": "/home/jslxh/PROJETCS/spc/results/processed/comparative_daily_alerts.csv",
+    "comparative_metrics_csv": "/home/jslxh/PROJETCS/spc/results/tables/comparative_metrics.csv",
+    "comparative_summary_json": "/home/jslxh/PROJETCS/spc/results/processed/comparative_evaluation_summary.json"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "execution_runtime": {
+    "execution_timestamp_utc": "2026-10-22T16:25:28.627329+00:00",
+    "python_version": "3.12.13 (main, Jul 30 2026, 11:09:03) [GCC 11.5.0 20240719 (Red Hat 11.5.0-5)]",
+    "platform": "Linux-7.2.8-arch1-2-x86_64-with-glibc2.34",
+    "architecture": "64bit",
+    "great_expectations_available": true,
+    "great_expectations_version": "1.24.0",
+    "pandas_version": "3.1.0",
+    "numpy_version": "2.5.4"
+  },
+  "scenarios": {
+    "abrupt_shift_cnt": {
+      "scenario_type": "abrupt",
+      "ground_truth_artifact": "/workspace/data/processed/drift/ground_truth_abrupt_shift_cnt.json",
+      "event_id": "drift_abrupt_shift_cnt_2012-07-01",
+      "target_metric": "cnt_mean",
+      "configured_onset": "2012-07-01",
+      "reference_onset_used": "2012-07-01",
+      "metric_specific_evaluation": {
+        "first_detection_date_on_or_after_onset": "2012-07-01",
+        "detection_lag_days": 0,
+        "total_alerts": 274,
+        "pre_onset_alerts": 105,
+        "pre_onset_false_alarm_rate": 0.576923,
+        "post_onset_alerts": 169,
+        "classification_metrics": {
+          "condition_positives": 184,
+          "condition_negatives": 182,
+          "total_batches": 366,
+          "true_positives": 169,
+          "false_positives": 105,
+          "true_negatives": 77,
+          "false_negatives": 15,
+          "tpr_recall": 0.918478,
+          "fpr_fallout": 0.576923,
+          "fnr_miss_rate": 0.081522,
+          "precision": 0.616788,
+          "f1_score": 0.737991
+        }
+      },
+      "composite_suite_evaluation": {
+        "first_detection_date_on_or_after_onset": "2012-07-01",
+        "detection_lag_days": 0,
+        "total_alerts": 276,
+        "pre_onset_alerts": 105,
+        "pre_onset_false_alarm_rate": 0.576923,
+        "post_onset_alerts": 171,
+        "classification_metrics": {
+          "condition_positives": 184,
+          "condition_negatives": 182,
+          "total_batches": 366,
+          "true_positives": 171,
+          "false_positives": 105,
+          "true_negatives": 77,
+          "false_negatives": 13,
+          "tpr_recall": 0.929348,
+          "fpr_fallout": 0.576923,
+          "fnr_miss_rate": 0.070652,
+          "precision": 0.619565,
+          "f1_score": 0.743478
+        }
+      }
+    },
+    "gradual_null_temp": {
+      "scenario_type": "gradual",
+      "ground_truth_artifact": "/workspace/data/processed/drift/ground_truth_gradual_null_temp.json",
+      "event_id": "drift_gradual_null_temp_2012-06-01",
+      "target_metric": "temp_null_rate",
+      "configured_onset": "2012-06-01",
+      "first_defect_onset": "2012-06-10",
+      "metric_specific_configured_onset_2012_06_01": {
+        "onset_date_reference": "2012-06-01",
+        "first_detection_date_on_or_after_onset": "2012-06-10",
+        "detection_lag_days": 9,
+        "total_alerts": 192,
+        "pre_onset_alerts": 0,
+        "pre_onset_false_alarm_rate": 0.0,
+        "post_onset_alerts": 192,
+        "classification_metrics": {
+          "condition_positives": 214,
+          "condition_negatives": 152,
+          "total_batches": 366,
+          "true_positives": 192,
+          "false_positives": 0,
+          "true_negatives": 152,
+          "false_negatives": 22,
+          "tpr_recall": 0.897196,
+          "fpr_fallout": 0.0,
+          "fnr_miss_rate": 0.102804,
+          "precision": 1.0,
+          "f1_score": 0.945813
+        }
+      },
+      "composite_suite_configured_onset_2012_06_01": {
+        "onset_date_reference": "2012-06-01",
+        "first_detection_date_on_or_after_onset": "2012-06-02",
+        "detection_lag_days": 1,
+        "total_alerts": 289,
+        "pre_onset_alerts": 77,
+        "pre_onset_false_alarm_rate": 0.506579,
+        "post_onset_alerts": 212,
+        "classification_metrics": {
+          "condition_positives": 214,
+          "condition_negatives": 152,
+          "total_batches": 366,
+          "true_positives": 212,
+          "false_positives": 77,
+          "true_negatives": 75,
+          "false_negatives": 2,
+          "tpr_recall": 0.990654,
+          "fpr_fallout": 0.506579,
+          "fnr_miss_rate": 0.009346,
+          "precision": 0.733564,
+          "f1_score": 0.842942
+        }
+      },
+      "metric_specific_first_defect_onset_2012_06_10": {
+        "onset_date_reference": "2012-06-10",
+        "first_detection_date_on_or_after_onset": "2012-06-10",
+        "detection_lag_days": 0,
+        "total_alerts": 192,
+        "pre_onset_alerts": 0,
+        "pre_onset_false_alarm_rate": 0.0,
+        "post_onset_alerts": 192,
+        "classification_metrics": {
+          "condition_positives": 205,
+          "condition_negatives": 161,
+          "total_batches": 366,
+          "true_positives": 192,
+          "false_positives": 0,
+          "true_negatives": 161,
+          "false_negatives": 13,
+          "tpr_recall": 0.936585,
+          "fpr_fallout": 0.0,
+          "fnr_miss_rate": 0.063415,
+          "precision": 1.0,
+          "f1_score": 0.967254
+        }
+      },
+      "composite_suite_first_defect_onset_2012_06_10": {
+        "onset_date_reference": "2012-06-10",
+        "first_detection_date_on_or_after_onset": "2012-06-10",
+        "detection_lag_days": 0,
+        "total_alerts": 289,
+        "pre_onset_alerts": 85,
+        "pre_onset_false_alarm_rate": 0.52795,
+        "post_onset_alerts": 204,
+        "classification_metrics": {
+          "condition_positives": 205,
+          "condition_negatives": 161,
+          "total_batches": 366,
+          "true_positives": 204,
+          "false_positives": 85,
+          "true_negatives": 76,
+          "false_negatives": 1,
+          "tpr_recall": 0.995122,
+          "fpr_fallout": 0.52795,
+          "fnr_miss_rate": 0.004878,
+          "precision": 0.705882,
+          "f1_score": 0.825911
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "audit_metadata": {
+    "report_name": "SPC Publication Outputs Final Audit",
+    "audit_timestamp_utc": "2026-10-23T16:06:52.848377+00:00",
+    "auditor": "Antigravity Coding Assistant",
+    "workspace_path": "/home/jslxh/PROJETCS/spc",
+    "git_status": "Clean working tree (0 files newly staged, 0 commits altered)"
+  },
+  "files_checked": {
+    "ground_truth_files": [
+      "data/processed/drift/ground_truth_abrupt_shift_cnt.json",
+      "data/processed/drift/ground_truth_gradual_null_temp.json"
+    ],
+    "raw_results_files": [
+      "results/raw/evaluation/audit_report.json",
+      "results/raw/gx/evaluation_summary.json"
+    ],
+    "processed_monitoring_files": [
+      "results/processed/comparative_daily_alerts.csv",
+      "results/processed/monitoring_shewhart_cnt_mean.csv",
+      "results/processed/monitoring_p_chart_temp_null_rate.csv",
+      "results/processed/monitoring_cusum_cnt_mean.csv"
+    ],
+    "publication_tables": [
+      "results/tables/table_detection_performance.csv",
+      "results/tables/table_alarm_episodes.csv",
+      "results/tables/table_method_parameters.csv",
+      "results/tables/table_ground_truth_events.csv",
+      "results/tables/comparative_metrics.csv"
+    ],
+    "publication_figures": [
+      "results/figures/abrupt_shift_monitoring.png",
+      "results/figures/gradual_null_drift.png",
+      "results/figures/false_alarm_comparison.png",
+      "results/figures/detection_timing.png"
+    ]
+  },
+  "test_suite_verification": {
+    "host_virtual_environment": {
+      "python_version": "3.14.7",
+      "command": ".venv/bin/python -m unittest discover -s tests -p 'test_*.py'",
+      "tests_ran": 78,
+      "tests_passed": 70,
+      "tests_skipped": 8,
+      "tests_failed": 0,
+      "skipped_reasons": "7 Great Expectations tests skipped (GX requires Python <=3.12); 1 figure generation in temp dir test skipped (matplotlib absent on host)."
+    },
+    "docker_isolated_environment": {
+      "container_image": "public.ecr.aws/lambda/python:3.12",
+      "python_version": "3.12.13",
+      "command": "docker run --rm -e PYTHONPATH=/workspace -v /home/jslxh/PROJETCS/spc:/workspace -v /tmp/spc-gx-test/venv:/env/venv -w /workspace --entrypoint /env/venv/bin/python public.ecr.aws/lambda/python:3.12 -m unittest discover -s tests -p 'test_*.py'",
+      "tests_ran": 78,
+      "tests_passed": 78,
+      "tests_skipped": 0,
+      "tests_failed": 0,
+      "status": "100% passed"
+    }
+  },
+  "abrupt_shift_timing_discrepancy_verification": {
+    "abrupt_shift_cnt_mean": {
+      "configured_onset_date": "2012-07-01",
+      "shewhart_individuals_and_gx": {
+        "first_post_onset_alarm_state_date": "2012-07-01",
+        "detection_lag_days": 0,
+        "alarming_on_eve_of_onset_2012_06_30": true,
+        "eve_of_onset_cnt_mean": 236.9583,
+        "onset_day_cnt_mean": 305.4583,
+        "upper_control_limit_ucl": 208.683,
+        "active_episode_spanning_onset": {
+          "episode_index": 15,
+          "episode_start_date": "2012-06-13",
+          "episode_end_date": "2012-10-28",
+          "total_episode_duration_days": 138,
+          "pre_onset_duration_days": 18,
+          "onset_day_position_in_episode": 19
+        },
+        "first_new_post_onset_threshold_crossing_date": "2012-10-31",
+        "crossing_lag_days": 122,
+        "timing_discrepancy_summary": "First alarm state occurs on day of onset (lag 0) because the process was already in an active alarm excursion (Episode 15) that began on 2012-06-13 (18 days before onset). The first genuine new post-onset threshold crossing does not occur until 2012-10-31 (lag 122 days)."
+      },
+      "tabular_cusum": {
+        "first_post_onset_alarm_state_date": "2012-07-01",
+        "detection_lag_days": 0,
+        "alarming_on_eve_of_onset_2012_06_30": true,
+        "eve_of_onset_c_plus": 547.886,
+        "onset_day_c_plus": 554.7925,
+        "decision_interval_threshold_h": 5.0,
+        "active_episode_spanning_onset": {
+          "episode_index": 7,
+          "episode_start_date": "2012-03-07",
+          "episode_end_date": "2012-12-31",
+          "total_episode_duration_days": 300,
+          "pre_onset_duration_days": 116,
+          "onset_day_position_in_episode": 117
+        },
+        "first_new_post_onset_threshold_crossing_date": null,
+        "crossing_lag_days": null,
+        "timing_discrepancy_summary": "CUSUM accumulator (C+) crossed h=5.0 on 2012-03-07 and remained continuously above 5.0 for 300 days through 2012-12-31 under reset_policy='none'. Thus, zero new post-onset threshold crossings occurred. The reported 100% batch recall is an artifact of pre-existing seasonal saturation, not sensitivity to the shift."
+      }
+    },
+    "gradual_null_temp": {
+      "configured_onset_date": "2012-06-01",
+      "first_observed_defect_date": "2012-06-10",
+      "gx_and_p_chart": {
+        "pre_onset_false_alarms": 0,
+        "alarming_on_eve_of_onset": false,
+        "first_post_onset_alarm_state_date": "2012-06-10",
+        "first_post_onset_crossing_date": "2012-06-10",
+        "lag_from_configured_onset_days": 9,
+        "lag_from_first_defect_days": 0,
+        "total_alarm_batches": 192,
+        "total_episodes": 10,
+        "pre_onset_episodes": 0,
+        "post_onset_episodes": 10,
+        "timing_consistency_summary": "Zero pre-onset false alarms. The first alarm state coincides exactly with the first new threshold crossing on 2012-06-10, demonstrating clean event detection with 0 lag relative to realized defect injection."
+      }
+    }
+  },
+  "table_metric_parity_verification": {
+    "table_detection_performance_csv": {
+      "row_count": 12,
+      "discrepancies_found": 0,
+      "status": "verified_bitwise_or_within_floating_tolerance"
+    },
+    "table_alarm_episodes_csv": {
+      "row_count": 12,
+      "discrepancies_found": 0,
+      "status": "verified_exact_match"
+    },
+    "comparative_metrics_csv": {
+      "row_count": 12,
+      "discrepancies_found": 0,
+      "status": "verified_exact_match"
+    }
+  },
+  "figure_integrity_verification": {
+    "abrupt_shift_monitoring.png": {
+      "file_size_bytes": 712129,
+      "valid_png_magic_bytes": true,
+      "plotted_signals_parity": "Verified: matches comparative_daily_alerts.csv (cnt_mean, alerts) and monitoring_cusum_cnt_mean.csv (c_plus, c_minus)."
+    },
+    "gradual_null_drift.png": {
+      "file_size_bytes": 525793,
+      "valid_png_magic_bytes": true,
+      "plotted_signals_parity": "Verified: matches comparative_daily_alerts.csv (temp_null_rate) and ground_truth_gradual_null_temp.json (scheduled defect rate)."
+    },
+    "false_alarm_comparison.png": {
+      "file_size_bytes": 306566,
+      "valid_png_magic_bytes": true,
+      "plotted_signals_parity": "Verified: matches pre_onset_false_alarm_rate from comparative_metrics.csv across both N=182 and N=161 windows."
+    },
+    "detection_timing.png": {
+      "file_size_bytes": 356532,
+      "valid_png_magic_bytes": true,
+      "plotted_signals_parity": "Verified: matches crossing lags and explicitly depicts 'No new post-onset crossing' for CUSUM on cnt_mean."
+    }
+  },
+  "discrepancies_flagged": [
+    {
+      "location": "results/raw/evaluation/audit_report.json (line 23)",
+      "type": "narrative_minor_inaccuracy",
+      "reported_text": "On 2012-07-01, Shewhart was on day 4 of an ongoing summer excursion that began on 2012-06-28.",
+      "verified_fact": "Shewhart Episode 15 actually began on 2012-06-13 (when cnt_mean crossed UCL=208.68 to reach 309.21), not 2012-06-28. June 13 to June 30 is 18 days; on 2012-07-01, Shewhart was on day 19 of the excursion. This was a narrative counting error in the preliminary audit note. All generated publication CSV tables (table_alarm_episodes.csv, comparative_metrics.csv) and daily alert series correctly record Episode 15 beginning on 2012-06-13.",
+      "table_impact": "None. The CSV tables and underlying scripts used the exact verified data without error."
+    }
+  ],
+  "conclusions_for_publication": {
+    "statistical_accuracy": "All numerical values in tables and figures match authoritative source data and ground-truth artifacts.",
+    "alarm_semantics_disclosure": "Paper and report text must clearly distinguish daily alert states from new threshold crossings to avoid misleading claims about continuous CUSUM recall.",
+    "reproducibility": "All outputs are fully reproducible via scripts/generate_publication_outputs.py and verified by the automated test suite."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "suite_name": "daily_quality_metrics_thresholds",
+  "description": "Great Expectations static threshold baseline suite for daily quality metrics in Phase II monitoring.",
+  "date_column": "batch_date",
+  "monitoring_start": "2012-01-01",
+  "monitoring_end": "2012-12-31",
+  "thresholds": [
+    {
+      "column": "row_count",
+      "min_value": 20.0,
+      "max_value": 24.0,
+      "strict_min": false,
+      "strict_max": false,
+      "allow_null": false,
+      "rationale": "Daily hourly intervals; batches with fewer than 20 rows indicate significant data pipeline ingestion loss."
+    },
+    {
+      "column": "temp_null_rate",
+      "min_value": 0.0,
+      "max_value": 0.01,
+      "strict_min": false,
+      "strict_max": false,
+      "allow_null": false,
+      "rationale": "Maximum tolerable missing temperature cell rate is 1.0% (SLA threshold), based on zero historical defects in Phase I baseline."
+    },
+    {
+      "column": "cnt_mean",
+      "min_value": 77.186,
+      "max_value": 208.683,
+      "strict_min": false,
+      "strict_max": false,
+      "allow_null": false,
+      "rationale": "Phase I baseline 3-sigma range [77.186, 208.683] derived objectively from 2011 baseline without inspecting Phase II drift."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "audit_timestamp_utc": "2026-10-23T04:18:51.952833+00:00",
+  "alert_semantics_analysis": {
+    "definition": "The 'is_alert' flag represents an active daily alarm state (C_t > h or x_t outside control limits), NOT an edge-triggered new threshold crossing.",
+    "impact_of_reset_policy_none": "Under reset_policy='none', accumulators carry forward historical state without clearing to zero upon alarm. A single macro-seasonal excursion in CUSUM (Episode 7 starting on 2012-03-07) sustained an unbroken alarm state for 300 consecutive days through 2012-12-31.",
+    "episode_vs_batch_distinction": {
+      "cusum_cnt_mean": {
+        "total_alarm_batches": 325,
+        "total_alarm_episodes": 7,
+        "pre_onset_alarm_episodes": 7,
+        "post_onset_alarm_episodes": 0,
+        "first_crossing_overall": "2012-01-03",
+        "first_post_onset_crossing": null,
+        "finding": "Because CUSUM was already in an unbroken alarm state from 2012-03-07, it experienced 0 new threshold crossings post-onset (2012-07-01). The 100% batch recall is an artifact of pre-existing seasonal saturation, not sensitivity to the +75 shift."
+      },
+      "shewhart_cnt_mean": {
+        "total_alarm_batches": 274,
+        "total_alarm_episodes": 18,
+        "pre_onset_alarm_episodes": 15,
+        "post_onset_alarm_episodes": 3,
+        "first_crossing_overall": "2012-01-21",
+        "first_post_onset_crossing": "2012-10-31",
+        "finding": "On 2012-07-01, Shewhart was on day 4 of an ongoing summer excursion that began on 2012-06-28. The 0-day lag reflects pre-existing alarm state, not a new threshold crossing."
+      },
+      "temp_null_rate_gx_and_pchart": {
+        "total_alarm_batches": 192,
+        "total_alarm_episodes": 10,
+        "pre_onset_alarm_episodes": 0,
+        "post_onset_alarm_episodes": 10,
+        "first_crossing_overall": "2012-06-10",
+        "first_post_onset_crossing": "2012-06-10",
+        "finding": "Clean event detection with 0 pre-onset false alarms. Detection lag is 0 days from first defect (2012-06-10) and 9 days from configured schedule start (2012-06-01)."
+      }
+    }
+  },
+  "zero_variance_cusum_status": "Continuous Gaussian CUSUM is uncalibrated and mathematically invalid on Phase I temp_null_rate (sigma_0 == 0.0). Correctly excluded to avoid fabricating invalid signals.",
+  "contingency_matrix_verification": "Independently verified: TP + FP + TN + FN == Total Batches (366) across all methods and scenarios without floating-point error."
+}

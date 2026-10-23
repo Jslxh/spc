@@ -1,0 +1,9 @@
+[2026-10-22 16:25:50,434] INFO: === Starting GX Baseline Monitoring: gradual_null_temp ===
+[2026-10-22 16:25:50,434] INFO: Input data: /workspace/results/processed/daily_metrics_gradual_null_temp.csv
+[2026-10-22 16:25:50,434] INFO: Config suite: daily_quality_metrics_thresholds
+[2026-10-22 16:25:50,434] INFO: Date range: 2012-01-01 to 2012-12-31
+[2026-10-22 16:26:09,006] INFO: Evaluated 366 daily batches.
+[2026-10-22 16:26:09,006] INFO: Alert batches: 289, Clean batches: 77
+[2026-10-22 16:26:09,006] INFO: First alert date (suite-level): 2012-01-21
+[2026-10-22 16:26:09,008] INFO: Output integrity verified: exactly 366 daily batches, 2196 expectation records.
+[2026-10-22 16:26:09,036] INFO: === Completed Scenario: gradual_null_temp ===

@@ -1,0 +1,3 @@
+event_id,scenario_name,target_column,drift_type,intended_schedule,seed,configured_onset_date,first_observed_defect_date,end_date,total_phase_2_batches,injected_batches,total_rows_affected,baseline_period_mean,effective_shift_magnitude,defect_free_pre_window_batches
+drift_abrupt_shift_cnt_2012-07-01,Abrupt Distribution Shift,cnt,abrupt_distribution_shift,Additive +75.0 constant shift,42,2012-07-01,2012-07-01,2012-12-31,366,184,4376,166.924,75.0,182
+drift_gradual_null_temp_2012-06-01,Gradual Null Rate Drift,temp,gradual_null_rate,Linear null rate ramp from 0.0 to 0.40,42,2012-06-01,2012-06-10,2012-12-31,366,214,1033,0.0,0.203,161

@@ -1,0 +1,367 @@
+batch_date,is_alert,failed_expectations_count,total_expectations_evaluated,alert_reasons
+2012-01-01,False,0,6,none
+2012-01-02,False,0,6,none
+2012-01-03,False,0,6,none
+2012-01-04,False,0,6,none
+2012-01-05,False,0,6,none
+2012-01-06,False,0,6,none
+2012-01-07,False,0,6,none
+2012-01-08,False,0,6,none
+2012-01-09,False,0,6,none
+2012-01-10,False,0,6,none
+2012-01-11,False,0,6,none
+2012-01-12,False,0,6,none
+2012-01-13,False,0,6,none
+2012-01-14,False,0,6,none
+2012-01-15,False,0,6,none
+2012-01-16,False,0,6,none
+2012-01-17,False,0,6,none
+2012-01-18,False,0,6,none
+2012-01-19,False,0,6,none
+2012-01-20,False,0,6,none
+2012-01-21,True,1,6,threshold_lower: cnt_mean=54.208333333333336 < 77.186
+2012-01-22,False,0,6,none
+2012-01-23,False,0,6,none
+2012-01-24,False,0,6,none
+2012-01-25,False,0,6,none
+2012-01-26,False,0,6,none
+2012-01-27,False,0,6,none
+2012-01-28,False,0,6,none
+2012-01-29,False,0,6,none
+2012-01-30,False,0,6,none
+2012-01-31,False,0,6,none
+2012-02-01,False,0,6,none
+2012-02-02,False,0,6,none
+2012-02-03,False,0,6,none
+2012-02-04,False,0,6,none
+2012-02-05,False,0,6,none
+2012-02-06,False,0,6,none
+2012-02-07,False,0,6,none
+2012-02-08,False,0,6,none
+2012-02-09,False,0,6,none
+2012-02-10,False,0,6,none
+2012-02-11,False,0,6,none
+2012-02-12,True,1,6,threshold_lower: cnt_mean=63.708333333333336 < 77.186
+2012-02-13,False,0,6,none
+2012-02-14,False,0,6,none
+2012-02-15,False,0,6,none
+2012-02-16,False,0,6,none
+2012-02-17,False,0,6,none
+2012-02-18,False,0,6,none
+2012-02-19,False,0,6,none
+2012-02-20,False,0,6,none
+2012-02-21,False,0,6,none
+2012-02-22,False,0,6,none
+2012-02-23,True,1,6,threshold_upper: cnt_mean=210.91666666666666 > 208.683
+2012-02-24,False,0,6,none
+2012-02-25,False,0,6,none
+2012-02-26,False,0,6,none
+2012-02-27,False,0,6,none
+2012-02-28,False,0,6,none
+2012-02-29,False,0,6,none
+2012-03-01,False,0,6,none
+2012-03-02,False,0,6,none
+2012-03-03,False,0,6,none
+2012-03-04,False,0,6,none
+2012-03-05,False,0,6,none
+2012-03-06,False,0,6,none
+2012-03-07,False,0,6,none
+2012-03-08,True,1,6,threshold_upper: cnt_mean=224.25 > 208.683
+2012-03-09,False,0,6,none
+2012-03-10,False,0,6,none
+2012-03-11,True,1,6,threshold_upper: cnt_mean=213.52173913043478 > 208.683
+2012-03-12,True,1,6,threshold_upper: cnt_mean=220.75 > 208.683
+2012-03-13,True,1,6,threshold_upper: cnt_mean=243.625 > 208.683
+2012-03-14,True,1,6,threshold_upper: cnt_mean=263.0 > 208.683
+2012-03-15,True,1,6,threshold_upper: cnt_mean=258.0 > 208.683
+2012-03-16,False,0,6,none
+2012-03-17,True,1,6,threshold_upper: cnt_mean=326.5 > 208.683
+2012-03-18,True,1,6,threshold_upper: cnt_mean=245.5 > 208.683
+2012-03-19,True,1,6,threshold_upper: cnt_mean=256.375 > 208.683
+2012-03-20,True,1,6,threshold_upper: cnt_mean=253.875 > 208.683
+2012-03-21,True,1,6,threshold_upper: cnt_mean=259.5833333333333 > 208.683
+2012-03-22,True,1,6,threshold_upper: cnt_mean=286.2916666666667 > 208.683
+2012-03-23,True,1,6,threshold_upper: cnt_mean=348.4166666666667 > 208.683
+2012-03-24,False,0,6,none
+2012-03-25,False,0,6,none
+2012-03-26,True,1,6,threshold_upper: cnt_mean=231.58333333333334 > 208.683
+2012-03-27,True,1,6,threshold_upper: cnt_mean=212.58333333333334 > 208.683
+2012-03-28,True,1,6,threshold_upper: cnt_mean=237.41666666666666 > 208.683
+2012-03-29,True,1,6,threshold_upper: cnt_mean=255.54166666666666 > 208.683
+2012-03-30,True,1,6,threshold_upper: cnt_mean=227.45833333333334 > 208.683
+2012-03-31,True,1,6,threshold_upper: cnt_mean=259.7916666666667 > 208.683
+2012-04-01,True,1,6,threshold_upper: cnt_mean=251.70833333333334 > 208.683
+2012-04-02,True,1,6,threshold_upper: cnt_mean=258.0869565217391 > 208.683
+2012-04-03,True,1,6,threshold_upper: cnt_mean=282.1666666666667 > 208.683
+2012-04-04,True,1,6,threshold_upper: cnt_mean=268.1666666666667 > 208.683
+2012-04-05,True,1,6,threshold_upper: cnt_mean=269.0416666666667 > 208.683
+2012-04-06,True,1,6,threshold_upper: cnt_mean=269.1666666666667 > 208.683
+2012-04-07,True,1,6,threshold_upper: cnt_mean=285.7083333333333 > 208.683
+2012-04-08,True,1,6,threshold_upper: cnt_mean=215.375 > 208.683
+2012-04-09,True,1,6,threshold_upper: cnt_mean=232.70833333333334 > 208.683
+2012-04-10,True,1,6,threshold_upper: cnt_mean=246.58333333333334 > 208.683
+2012-04-11,True,1,6,threshold_upper: cnt_mean=211.3913043478261 > 208.683
+2012-04-12,True,1,6,threshold_upper: cnt_mean=225.375 > 208.683
+2012-04-13,True,1,6,threshold_upper: cnt_mean=266.5833333333333 > 208.683
+2012-04-14,True,1,6,threshold_upper: cnt_mean=310.8333333333333 > 208.683
+2012-04-15,True,1,6,threshold_upper: cnt_mean=297.1666666666667 > 208.683
+2012-04-16,True,1,6,threshold_upper: cnt_mean=265.4166666666667 > 208.683
+2012-04-17,True,1,6,threshold_upper: cnt_mean=278.7916666666667 > 208.683
+2012-04-18,False,0,6,none
+2012-04-19,True,1,6,threshold_upper: cnt_mean=273.5416666666667 > 208.683
+2012-04-20,True,1,6,threshold_upper: cnt_mean=303.75 > 208.683
+2012-04-21,True,1,6,threshold_upper: cnt_mean=276.0 > 208.683
+2012-04-22,True,1,6,threshold_lower: cnt_mean=42.791666666666664 < 77.186
+2012-04-23,False,0,6,none
+2012-04-24,True,1,6,threshold_upper: cnt_mean=234.70833333333334 > 208.683
+2012-04-25,True,1,6,threshold_upper: cnt_mean=258.1666666666667 > 208.683
+2012-04-26,True,1,6,threshold_upper: cnt_mean=209.41666666666666 > 208.683
+2012-04-27,True,1,6,threshold_upper: cnt_mean=259.7083333333333 > 208.683
+2012-04-28,False,0,6,none
+2012-04-29,True,1,6,threshold_upper: cnt_mean=262.6666666666667 > 208.683
+2012-04-30,True,1,6,threshold_upper: cnt_mean=232.16666666666666 > 208.683
+2012-05-01,True,1,6,threshold_upper: cnt_mean=239.16666666666666 > 208.683
+2012-05-02,True,1,6,threshold_upper: cnt_mean=257.0416666666667 > 208.683
+2012-05-03,True,1,6,threshold_upper: cnt_mean=267.5416666666667 > 208.683
+2012-05-04,True,1,6,threshold_upper: cnt_mean=262.3333333333333 > 208.683
+2012-05-05,True,1,6,threshold_upper: cnt_mean=286.7916666666667 > 208.683
+2012-05-06,True,1,6,threshold_upper: cnt_mean=264.9583333333333 > 208.683
+2012-05-07,True,1,6,threshold_upper: cnt_mean=261.375 > 208.683
+2012-05-08,True,1,6,threshold_upper: cnt_mean=238.66666666666666 > 208.683
+2012-05-09,False,0,6,none
+2012-05-10,True,1,6,threshold_upper: cnt_mean=273.8333333333333 > 208.683
+2012-05-11,True,1,6,threshold_upper: cnt_mean=292.9166666666667 > 208.683
+2012-05-12,True,1,6,threshold_upper: cnt_mean=309.5416666666667 > 208.683
+2012-05-13,True,1,6,threshold_upper: cnt_mean=254.91666666666666 > 208.683
+2012-05-14,False,0,6,none
+2012-05-15,True,1,6,threshold_upper: cnt_mean=213.125 > 208.683
+2012-05-16,True,1,6,threshold_upper: cnt_mean=309.3333333333333 > 208.683
+2012-05-17,True,1,6,threshold_upper: cnt_mean=307.6666666666667 > 208.683
+2012-05-18,True,1,6,threshold_upper: cnt_mean=318.2916666666667 > 208.683
+2012-05-19,True,1,6,threshold_upper: cnt_mean=345.5833333333333 > 208.683
+2012-05-20,True,1,6,threshold_upper: cnt_mean=297.0416666666667 > 208.683
+2012-05-21,False,0,6,none
+2012-05-22,True,1,6,threshold_upper: cnt_mean=253.04166666666666 > 208.683
+2012-05-23,True,1,6,threshold_upper: cnt_mean=219.16666666666666 > 208.683
+2012-05-24,True,1,6,threshold_upper: cnt_mean=282.0833333333333 > 208.683
+2012-05-25,True,1,6,threshold_upper: cnt_mean=280.5833333333333 > 208.683
+2012-05-26,True,1,6,threshold_upper: cnt_mean=272.3333333333333 > 208.683
+2012-05-27,True,1,6,threshold_upper: cnt_mean=274.625 > 208.683
+2012-05-28,True,1,6,threshold_upper: cnt_mean=251.79166666666666 > 208.683
+2012-05-29,True,1,6,threshold_upper: cnt_mean=239.29166666666666 > 208.683
+2012-05-30,True,1,6,threshold_upper: cnt_mean=285.625 > 208.683
+2012-05-31,True,1,6,threshold_upper: cnt_mean=305.75 > 208.683
+2012-06-01,False,0,6,none
+2012-06-02,True,1,6,threshold_upper: cnt_mean=338.3333333333333 > 208.683
+2012-06-03,True,1,6,threshold_upper: cnt_mean=318.375 > 208.683
+2012-06-04,True,1,6,threshold_upper: cnt_mean=291.5833333333333 > 208.683
+2012-06-05,True,1,6,threshold_upper: cnt_mean=291.7083333333333 > 208.683
+2012-06-06,True,1,6,threshold_upper: cnt_mean=293.9583333333333 > 208.683
+2012-06-07,True,1,6,threshold_upper: cnt_mean=312.25 > 208.683
+2012-06-08,True,1,6,threshold_upper: cnt_mean=322.3333333333333 > 208.683
+2012-06-09,True,1,6,threshold_upper: cnt_mean=312.4166666666667 > 208.683
+2012-06-10,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=274.9166666666667 > 208.683
+2012-06-11,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=277.6666666666667 > 208.683
+2012-06-12,False,0,6,none
+2012-06-13,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=309.2083333333333 > 208.683
+2012-06-14,True,1,6,threshold_upper: cnt_mean=306.7916666666667 > 208.683
+2012-06-15,True,1,6,threshold_upper: cnt_mean=319.375 > 208.683
+2012-06-16,True,1,6,threshold_upper: cnt_mean=320.9166666666667 > 208.683
+2012-06-17,True,1,6,threshold_upper: cnt_mean=290.75 > 208.683
+2012-06-18,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=212.45833333333334 > 208.683
+2012-06-19,True,2,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01; threshold_upper: cnt_mean=284.375 > 208.683
+2012-06-20,True,1,6,threshold_upper: cnt_mean=258.7916666666667 > 208.683
+2012-06-21,True,1,6,threshold_upper: cnt_mean=246.04166666666666 > 208.683
+2012-06-22,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=242.625 > 208.683
+2012-06-23,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=310.75 > 208.683
+2012-06-24,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=287.125 > 208.683
+2012-06-25,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=282.4583333333333 > 208.683
+2012-06-26,True,2,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01; threshold_upper: cnt_mean=310.0833333333333 > 208.683
+2012-06-27,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=305.625 > 208.683
+2012-06-28,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=286.625 > 208.683
+2012-06-29,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=227.625 > 208.683
+2012-06-30,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=236.95833333333334 > 208.683
+2012-07-01,True,1,6,threshold_upper: cnt_mean=230.45833333333334 > 208.683
+2012-07-02,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=259.4583333333333 > 208.683
+2012-07-03,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=277.5 > 208.683
+2012-07-04,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=308.4583333333333 > 208.683
+2012-07-05,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=260.0416666666667 > 208.683
+2012-07-06,True,2,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01; threshold_upper: cnt_mean=258.625 > 208.683
+2012-07-07,True,1,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01
+2012-07-08,True,1,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01
+2012-07-09,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=273.7083333333333 > 208.683
+2012-07-10,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=262.0833333333333 > 208.683
+2012-07-11,True,1,6,threshold_upper: cnt_mean=302.6666666666667 > 208.683
+2012-07-12,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=310.25 > 208.683
+2012-07-13,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=312.4583333333333 > 208.683
+2012-07-14,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=290.375 > 208.683
+2012-07-15,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=251.29166666666666 > 208.683
+2012-07-16,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=284.5833333333333 > 208.683
+2012-07-17,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=282.75 > 208.683
+2012-07-18,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=238.04166666666666 > 208.683
+2012-07-19,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=274.625 > 208.683
+2012-07-20,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=244.58333333333334 > 208.683
+2012-07-21,True,1,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01
+2012-07-22,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=308.75 > 208.683
+2012-07-23,True,2,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01; threshold_upper: cnt_mean=290.25 > 208.683
+2012-07-24,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=316.3333333333333 > 208.683
+2012-07-25,True,1,6,threshold_upper: cnt_mean=340.5416666666667 > 208.683
+2012-07-26,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=285.875 > 208.683
+2012-07-27,True,2,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01; threshold_upper: cnt_mean=287.6666666666667 > 208.683
+2012-07-28,True,2,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01; threshold_upper: cnt_mean=278.5416666666667 > 208.683
+2012-07-29,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=274.875 > 208.683
+2012-07-30,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=296.0416666666667 > 208.683
+2012-07-31,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=300.6666666666667 > 208.683
+2012-08-01,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=315.8333333333333 > 208.683
+2012-08-02,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=302.5416666666667 > 208.683
+2012-08-03,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=298.9583333333333 > 208.683
+2012-08-04,True,2,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01; threshold_upper: cnt_mean=284.3333333333333 > 208.683
+2012-08-05,True,1,6,threshold_upper: cnt_mean=227.66666666666666 > 208.683
+2012-08-06,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=292.2083333333333 > 208.683
+2012-08-07,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=303.0416666666667 > 208.683
+2012-08-08,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=313.9166666666667 > 208.683
+2012-08-09,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=303.5833333333333 > 208.683
+2012-08-10,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=241.08333333333334 > 208.683
+2012-08-11,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=262.4583333333333 > 208.683
+2012-08-12,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=272.6666666666667 > 208.683
+2012-08-13,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=286.7916666666667 > 208.683
+2012-08-14,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=282.6666666666667 > 208.683
+2012-08-15,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=306.125 > 208.683
+2012-08-16,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=316.875 > 208.683
+2012-08-17,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=297.8333333333333 > 208.683
+2012-08-18,True,1,6,threshold_upper: cnt_mean=327.7083333333333 > 208.683
+2012-08-19,True,1,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01
+2012-08-20,True,2,6,threshold_upper: temp_null_rate=0.25 > 0.01; threshold_upper: cnt_mean=272.0833333333333 > 208.683
+2012-08-21,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=291.9166666666667 > 208.683
+2012-08-22,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=307.2916666666667 > 208.683
+2012-08-23,True,2,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01; threshold_upper: cnt_mean=323.5416666666667 > 208.683
+2012-08-24,True,2,6,threshold_upper: temp_null_rate=0.25 > 0.01; threshold_upper: cnt_mean=315.9166666666667 > 208.683
+2012-08-25,True,2,6,threshold_upper: temp_null_rate=0.25 > 0.01; threshold_upper: cnt_mean=252.20833333333334 > 208.683
+2012-08-26,True,2,6,threshold_upper: temp_null_rate=0.25 > 0.01; threshold_upper: cnt_mean=218.95833333333334 > 208.683
+2012-08-27,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=288.2083333333333 > 208.683
+2012-08-28,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=293.3333333333333 > 208.683
+2012-08-29,True,2,6,threshold_upper: temp_null_rate=0.25 > 0.01; threshold_upper: cnt_mean=320.7083333333333 > 208.683
+2012-08-30,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=321.375 > 208.683
+2012-08-31,True,2,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01; threshold_upper: cnt_mean=306.25 > 208.683
+2012-09-01,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=255.83333333333334 > 208.683
+2012-09-02,True,2,6,threshold_upper: temp_null_rate=0.25 > 0.01; threshold_upper: cnt_mean=242.08333333333334 > 208.683
+2012-09-03,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=251.41666666666666 > 208.683
+2012-09-04,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=286.0 > 208.683
+2012-09-05,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=296.3333333333333 > 208.683
+2012-09-06,True,2,6,threshold_upper: temp_null_rate=0.25 > 0.01; threshold_upper: cnt_mean=258.4583333333333 > 208.683
+2012-09-07,True,2,6,threshold_upper: temp_null_rate=0.3333333333333333 > 0.01; threshold_upper: cnt_mean=312.6666666666667 > 208.683
+2012-09-08,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=249.0 > 208.683
+2012-09-09,True,2,6,threshold_upper: temp_null_rate=0.3333333333333333 > 0.01; threshold_upper: cnt_mean=342.7916666666667 > 208.683
+2012-09-10,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=313.5416666666667 > 208.683
+2012-09-11,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=323.625 > 208.683
+2012-09-12,True,2,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01; threshold_upper: cnt_mean=327.9166666666667 > 208.683
+2012-09-13,True,2,6,threshold_upper: temp_null_rate=0.25 > 0.01; threshold_upper: cnt_mean=325.1666666666667 > 208.683
+2012-09-14,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=333.7083333333333 > 208.683
+2012-09-15,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=363.0833333333333 > 208.683
+2012-09-16,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=305.5416666666667 > 208.683
+2012-09-17,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=286.2083333333333 > 208.683
+2012-09-18,True,1,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01
+2012-09-19,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=316.2916666666667 > 208.683
+2012-09-20,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=321.6666666666667 > 208.683
+2012-09-21,True,2,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01; threshold_upper: cnt_mean=340.2916666666667 > 208.683
+2012-09-22,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=349.7916666666667 > 208.683
+2012-09-23,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=329.4583333333333 > 208.683
+2012-09-24,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=309.8333333333333 > 208.683
+2012-09-25,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=314.0833333333333 > 208.683
+2012-09-26,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=322.2083333333333 > 208.683
+2012-09-27,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=308.0416666666667 > 208.683
+2012-09-28,True,2,6,threshold_upper: temp_null_rate=0.125 > 0.01; threshold_upper: cnt_mean=308.9583333333333 > 208.683
+2012-09-29,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=356.4583333333333 > 208.683
+2012-09-30,True,2,6,threshold_upper: temp_null_rate=0.4166666666666667 > 0.01; threshold_upper: cnt_mean=287.0416666666667 > 208.683
+2012-10-01,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=282.4166666666667 > 208.683
+2012-10-02,True,1,6,threshold_upper: temp_null_rate=0.25 > 0.01
+2012-10-03,True,2,6,threshold_upper: temp_null_rate=0.25 > 0.01; threshold_upper: cnt_mean=315.5 > 208.683
+2012-10-04,True,2,6,threshold_upper: temp_null_rate=0.25 > 0.01; threshold_upper: cnt_mean=305.3333333333333 > 208.683
+2012-10-05,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=339.8333333333333 > 208.683
+2012-10-06,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=331.875 > 208.683
+2012-10-07,True,1,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01
+2012-10-08,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=228.25 > 208.683
+2012-10-09,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=266.3333333333333 > 208.683
+2012-10-10,True,2,6,threshold_upper: temp_null_rate=0.375 > 0.01; threshold_upper: cnt_mean=320.4583333333333 > 208.683
+2012-10-11,True,2,6,threshold_upper: temp_null_rate=0.375 > 0.01; threshold_upper: cnt_mean=315.4166666666667 > 208.683
+2012-10-12,True,2,6,threshold_upper: temp_null_rate=0.375 > 0.01; threshold_upper: cnt_mean=303.4166666666667 > 208.683
+2012-10-13,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=296.2083333333333 > 208.683
+2012-10-14,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=276.625 > 208.683
+2012-10-15,True,2,6,threshold_upper: temp_null_rate=0.25 > 0.01; threshold_upper: cnt_mean=244.79166666666666 > 208.683
+2012-10-16,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=313.9166666666667 > 208.683
+2012-10-17,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=310.875 > 208.683
+2012-10-18,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=312.875 > 208.683
+2012-10-19,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=226.0 > 208.683
+2012-10-20,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=337.0833333333333 > 208.683
+2012-10-21,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=284.3333333333333 > 208.683
+2012-10-22,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=294.0833333333333 > 208.683
+2012-10-23,True,2,6,threshold_upper: temp_null_rate=0.3333333333333333 > 0.01; threshold_upper: cnt_mean=311.0833333333333 > 208.683
+2012-10-24,True,2,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01; threshold_upper: cnt_mean=320.5416666666667 > 208.683
+2012-10-25,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=306.625 > 208.683
+2012-10-26,True,2,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01; threshold_upper: cnt_mean=310.1666666666667 > 208.683
+2012-10-27,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=327.1666666666667 > 208.683
+2012-10-28,True,1,6,threshold_upper: temp_null_rate=0.08333333333333333 > 0.01
+2012-10-29,True,2,6,threshold_lower: row_count=1.0 < 20.0; threshold_lower: cnt_mean=22.0 < 77.186
+2012-10-30,True,2,6,threshold_lower: row_count=11.0 < 20.0; threshold_upper: temp_null_rate=0.18181818181818182 > 0.01
+2012-10-31,True,2,6,threshold_upper: temp_null_rate=0.375 > 0.01; threshold_upper: cnt_mean=231.91666666666666 > 208.683
+2012-11-01,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=249.41666666666666 > 208.683
+2012-11-02,True,2,6,threshold_upper: temp_null_rate=0.4583333333333333 > 0.01; threshold_upper: cnt_mean=243.625 > 208.683
+2012-11-03,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=214.08333333333334 > 208.683
+2012-11-04,True,2,6,threshold_upper: temp_null_rate=0.375 > 0.01; threshold_upper: cnt_mean=212.79166666666666 > 208.683
+2012-11-05,True,2,6,threshold_upper: temp_null_rate=0.041666666666666664 > 0.01; threshold_upper: cnt_mean=219.125 > 208.683
+2012-11-06,True,2,6,threshold_upper: temp_null_rate=0.3333333333333333 > 0.01; threshold_upper: cnt_mean=236.91666666666666 > 208.683
+2012-11-07,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=209.79166666666666 > 208.683
+2012-11-08,True,2,6,threshold_upper: temp_null_rate=0.391304347826087 > 0.01; threshold_upper: cnt_mean=231.08695652173913 > 208.683
+2012-11-09,True,2,6,threshold_upper: temp_null_rate=0.3333333333333333 > 0.01; threshold_upper: cnt_mean=249.66666666666666 > 208.683
+2012-11-10,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=272.3333333333333 > 208.683
+2012-11-11,True,2,6,threshold_upper: temp_null_rate=0.3333333333333333 > 0.01; threshold_upper: cnt_mean=285.5 > 208.683
+2012-11-12,True,2,6,threshold_upper: temp_null_rate=0.25 > 0.01; threshold_upper: cnt_mean=261.2083333333333 > 208.683
+2012-11-13,True,1,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01
+2012-11-14,True,2,6,threshold_upper: temp_null_rate=0.4166666666666667 > 0.01; threshold_upper: cnt_mean=228.95833333333334 > 208.683
+2012-11-15,True,2,6,threshold_upper: temp_null_rate=0.375 > 0.01; threshold_upper: cnt_mean=226.875 > 208.683
+2012-11-16,True,2,6,threshold_upper: temp_null_rate=0.5 > 0.01; threshold_upper: cnt_mean=237.41666666666666 > 208.683
+2012-11-17,True,2,6,threshold_upper: temp_null_rate=0.5 > 0.01; threshold_upper: cnt_mean=234.54166666666666 > 208.683
+2012-11-18,True,1,6,threshold_upper: temp_null_rate=0.25 > 0.01
+2012-11-19,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=229.125 > 208.683
+2012-11-20,True,2,6,threshold_upper: temp_null_rate=0.375 > 0.01; threshold_upper: cnt_mean=234.75 > 208.683
+2012-11-21,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=214.41666666666666 > 208.683
+2012-11-22,True,1,6,threshold_upper: temp_null_rate=0.16666666666666666 > 0.01
+2012-11-23,True,1,6,threshold_upper: temp_null_rate=0.3333333333333333 > 0.01
+2012-11-24,True,1,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01
+2012-11-25,True,1,6,threshold_upper: temp_null_rate=0.5 > 0.01
+2012-11-26,True,2,6,threshold_upper: temp_null_rate=0.4583333333333333 > 0.01; threshold_upper: cnt_mean=211.95833333333334 > 208.683
+2012-11-27,True,1,6,threshold_upper: temp_null_rate=0.3333333333333333 > 0.01
+2012-11-28,True,2,6,threshold_upper: temp_null_rate=0.25 > 0.01; threshold_upper: cnt_mean=219.16666666666666 > 208.683
+2012-11-29,True,2,6,threshold_upper: temp_null_rate=0.34782608695652173 > 0.01; threshold_upper: cnt_mean=231.43478260869566 > 208.683
+2012-11-30,True,2,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01; threshold_upper: cnt_mean=236.16666666666666 > 208.683
+2012-12-01,True,2,6,threshold_upper: temp_null_rate=0.4583333333333333 > 0.01; threshold_upper: cnt_mean=216.29166666666666 > 208.683
+2012-12-02,True,1,6,threshold_upper: temp_null_rate=0.375 > 0.01
+2012-12-03,True,2,6,threshold_upper: temp_null_rate=0.3333333333333333 > 0.01; threshold_upper: cnt_mean=259.75 > 208.683
+2012-12-04,True,2,6,threshold_upper: temp_null_rate=0.4583333333333333 > 0.01; threshold_upper: cnt_mean=275.25 > 208.683
+2012-12-05,True,2,6,threshold_upper: temp_null_rate=0.5 > 0.01; threshold_upper: cnt_mean=238.70833333333334 > 208.683
+2012-12-06,True,2,6,threshold_upper: temp_null_rate=0.4166666666666667 > 0.01; threshold_upper: cnt_mean=223.95833333333334 > 208.683
+2012-12-07,True,1,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01
+2012-12-08,True,2,6,threshold_upper: temp_null_rate=0.4166666666666667 > 0.01; threshold_upper: cnt_mean=232.58333333333334 > 208.683
+2012-12-09,True,1,6,threshold_upper: temp_null_rate=0.3333333333333333 > 0.01
+2012-12-10,True,2,6,threshold_upper: temp_null_rate=0.4166666666666667 > 0.01; threshold_upper: cnt_mean=215.41666666666666 > 208.683
+2012-12-11,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_upper: cnt_mean=229.20833333333334 > 208.683
+2012-12-12,True,2,6,threshold_upper: temp_null_rate=0.4166666666666667 > 0.01; threshold_upper: cnt_mean=221.625 > 208.683
+2012-12-13,True,2,6,threshold_upper: temp_null_rate=0.5833333333333334 > 0.01; threshold_upper: cnt_mean=230.5 > 208.683
+2012-12-14,True,2,6,threshold_upper: temp_null_rate=0.375 > 0.01; threshold_upper: cnt_mean=233.79166666666666 > 208.683
+2012-12-15,True,2,6,threshold_upper: temp_null_rate=0.5416666666666666 > 0.01; threshold_upper: cnt_mean=210.29166666666666 > 208.683
+2012-12-16,True,1,6,threshold_upper: temp_null_rate=0.3333333333333333 > 0.01
+2012-12-17,True,1,6,threshold_upper: temp_null_rate=0.4583333333333333 > 0.01
+2012-12-18,True,2,6,threshold_upper: temp_null_rate=0.4166666666666667 > 0.01; threshold_upper: cnt_mean=231.54166666666666 > 208.683
+2012-12-19,True,2,6,threshold_upper: temp_null_rate=0.3333333333333333 > 0.01; threshold_upper: cnt_mean=219.45833333333334 > 208.683
+2012-12-20,True,1,6,threshold_upper: temp_null_rate=0.375 > 0.01
+2012-12-21,True,1,6,threshold_upper: temp_null_rate=0.20833333333333334 > 0.01
+2012-12-22,True,2,6,threshold_upper: temp_null_rate=0.5 > 0.01; threshold_lower: cnt_mean=72.875 < 77.186
+2012-12-23,True,2,6,threshold_upper: temp_null_rate=0.4166666666666667 > 0.01; threshold_lower: cnt_mean=74.45833333333333 < 77.186
+2012-12-24,True,2,6,threshold_upper: temp_null_rate=0.34782608695652173 > 0.01; threshold_lower: cnt_mean=40.0 < 77.186
+2012-12-25,True,2,6,threshold_upper: temp_null_rate=0.391304347826087 > 0.01; threshold_lower: cnt_mean=44.04347826086956 < 77.186
+2012-12-26,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_lower: cnt_mean=18.375 < 77.186
+2012-12-27,True,1,6,threshold_upper: temp_null_rate=0.625 > 0.01
+2012-12-28,True,1,6,threshold_upper: temp_null_rate=0.5416666666666666 > 0.01
+2012-12-29,True,2,6,threshold_upper: temp_null_rate=0.2916666666666667 > 0.01; threshold_lower: cnt_mean=55.875 < 77.186
+2012-12-30,True,2,6,threshold_upper: temp_null_rate=0.5 > 0.01; threshold_lower: cnt_mean=74.83333333333333 < 77.186
+2012-12-31,True,1,6,threshold_upper: temp_null_rate=0.5416666666666666 > 0.01

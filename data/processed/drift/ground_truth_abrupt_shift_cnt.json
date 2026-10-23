@@ -1,0 +1,6605 @@
+{
+  "event_id": "drift_abrupt_shift_cnt_2012-07-01",
+  "scenario_type": "abrupt_distribution_shift",
+  "affected_column": "cnt",
+  "onset_date": "2012-07-01",
+  "end_date": "2012-12-31",
+  "seed": 42,
+  "intended_parameters": {
+    "shift_type": "additive",
+    "shift_value": 75.0,
+    "clip_min": 0.0,
+    "clip_max": null
+  },
+  "measured_outcome": {
+    "total_dataset_rows": 17379,
+    "total_rows_affected": 4376,
+    "total_batches_affected": 184,
+    "pre_window_overall_mean": 166.924004,
+    "post_window_original_mean": 252.320842,
+    "post_window_effective_mean": 327.320842,
+    "effective_overall_shift": 75.0,
+    "total_clipped_cells": 0
+  },
+  "batch_records": [
+    {
+      "batch_date": "2011-01-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 41.041667,
+      "post_injection_mean": 41.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-02",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 34.826087,
+      "post_injection_mean": 34.826087,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-03",
+      "in_drift_window": false,
+      "batch_row_count": 22,
+      "pre_injection_mean": 61.318182,
+      "post_injection_mean": 61.318182,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-04",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 67.913043,
+      "post_injection_mean": 67.913043,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-05",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 69.565217,
+      "post_injection_mean": 69.565217,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-06",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 69.826087,
+      "post_injection_mean": 69.826087,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-07",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 65.652174,
+      "post_injection_mean": 65.652174,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 39.958333,
+      "post_injection_mean": 39.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 34.25,
+      "post_injection_mean": 34.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 55.041667,
+      "post_injection_mean": 55.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-11",
+      "in_drift_window": false,
+      "batch_row_count": 22,
+      "pre_injection_mean": 57.409091,
+      "post_injection_mean": 57.409091,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-12",
+      "in_drift_window": false,
+      "batch_row_count": 22,
+      "pre_injection_mean": 52.818182,
+      "post_injection_mean": 52.818182,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 58.583333,
+      "post_injection_mean": 58.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-14",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 61.782609,
+      "post_injection_mean": 61.782609,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 52.0,
+      "post_injection_mean": 52.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 50.166667,
+      "post_injection_mean": 50.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 41.666667,
+      "post_injection_mean": 41.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-18",
+      "in_drift_window": false,
+      "batch_row_count": 12,
+      "pre_injection_mean": 56.916667,
+      "post_injection_mean": 56.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-19",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 71.73913,
+      "post_injection_mean": 71.73913,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 80.291667,
+      "post_injection_mean": 80.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 64.291667,
+      "post_injection_mean": 64.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-22",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 42.652174,
+      "post_injection_mean": 42.652174,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-23",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 42.869565,
+      "post_injection_mean": 42.869565,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-24",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 61.565217,
+      "post_injection_mean": 61.565217,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-25",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 86.304348,
+      "post_injection_mean": 86.304348,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-26",
+      "in_drift_window": false,
+      "batch_row_count": 16,
+      "pre_injection_mean": 31.625,
+      "post_injection_mean": 31.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-27",
+      "in_drift_window": false,
+      "batch_row_count": 8,
+      "pre_injection_mean": 53.875,
+      "post_injection_mean": 53.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-28",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 50.73913,
+      "post_injection_mean": 50.73913,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-29",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 47.73913,
+      "post_injection_mean": 47.73913,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-30",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 47.652174,
+      "post_injection_mean": 47.652174,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-01-31",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 62.541667,
+      "post_injection_mean": 62.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-01",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 59.130435,
+      "post_injection_mean": 59.130435,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 63.583333,
+      "post_injection_mean": 63.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-03",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 67.391304,
+      "post_injection_mean": 67.391304,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-04",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 74.26087,
+      "post_injection_mean": 74.26087,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 41.875,
+      "post_injection_mean": 41.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 67.625,
+      "post_injection_mean": 67.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 71.333333,
+      "post_injection_mean": 71.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 63.75,
+      "post_injection_mean": 63.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-09",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 69.782609,
+      "post_injection_mean": 69.782609,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-10",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 66.869565,
+      "post_injection_mean": 66.869565,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-11",
+      "in_drift_window": false,
+      "batch_row_count": 22,
+      "pre_injection_mean": 79.363636,
+      "post_injection_mean": 79.363636,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 61.333333,
+      "post_injection_mean": 61.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-13",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 69.086957,
+      "post_injection_mean": 69.086957,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 79.708333,
+      "post_injection_mean": 79.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-15",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 78.913043,
+      "post_injection_mean": 78.913043,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-16",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 91.956522,
+      "post_injection_mean": 91.956522,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 103.125,
+      "post_injection_mean": 103.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 121.958333,
+      "post_injection_mean": 121.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 68.125,
+      "post_injection_mean": 68.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-20",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 78.782609,
+      "post_injection_mean": 78.782609,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 46.125,
+      "post_injection_mean": 46.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-22",
+      "in_drift_window": false,
+      "batch_row_count": 18,
+      "pre_injection_mean": 80.555556,
+      "post_injection_mean": 80.555556,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-23",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 83.347826,
+      "post_injection_mean": 83.347826,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-24",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 78.565217,
+      "post_injection_mean": 78.565217,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-25",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 63.521739,
+      "post_injection_mean": 63.521739,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 82.041667,
+      "post_injection_mean": 82.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-27",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 104.434783,
+      "post_injection_mean": 104.434783,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-02-28",
+      "in_drift_window": false,
+      "batch_row_count": 22,
+      "pre_injection_mean": 65.727273,
+      "post_injection_mean": 65.727273,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 77.125,
+      "post_injection_mean": 77.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 88.916667,
+      "post_injection_mean": 88.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 70.208333,
+      "post_injection_mean": 70.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 81.0,
+      "post_injection_mean": 81.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 86.541667,
+      "post_injection_mean": 86.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-06",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 26.304348,
+      "post_injection_mean": 26.304348,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-07",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 81.391304,
+      "post_injection_mean": 81.391304,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 88.875,
+      "post_injection_mean": 88.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 78.791667,
+      "post_injection_mean": 78.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-10",
+      "in_drift_window": false,
+      "batch_row_count": 22,
+      "pre_injection_mean": 28.318182,
+      "post_injection_mean": 28.318182,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-11",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 85.956522,
+      "post_injection_mean": 85.956522,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 88.833333,
+      "post_injection_mean": 88.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-13",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 105.086957,
+      "post_injection_mean": 105.086957,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-14",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 88.956522,
+      "post_injection_mean": 88.956522,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-15",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 89.391304,
+      "post_injection_mean": 89.391304,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-16",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 95.304348,
+      "post_injection_mean": 95.304348,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 114.333333,
+      "post_injection_mean": 114.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-18",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 140.826087,
+      "post_injection_mean": 140.826087,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 129.875,
+      "post_injection_mean": 129.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 102.958333,
+      "post_injection_mean": 102.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-21",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 90.304348,
+      "post_injection_mean": 90.304348,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 112.625,
+      "post_injection_mean": 112.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-23",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 92.217391,
+      "post_injection_mean": 92.217391,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 77.708333,
+      "post_injection_mean": 77.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 92.083333,
+      "post_injection_mean": 92.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 104.0,
+      "post_injection_mean": 104.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-27",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 73.608696,
+      "post_injection_mean": 73.608696,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-28",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 88.173913,
+      "post_injection_mean": 88.173913,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 101.041667,
+      "post_injection_mean": 101.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 64.0,
+      "post_injection_mean": 64.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-03-31",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 70.208333,
+      "post_injection_mean": 70.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 92.791667,
+      "post_injection_mean": 92.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 93.833333,
+      "post_injection_mean": 93.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 135.375,
+      "post_injection_mean": 135.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 129.791667,
+      "post_injection_mean": 129.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 74.791667,
+      "post_injection_mean": 74.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 117.0,
+      "post_injection_mean": 117.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 130.875,
+      "post_injection_mean": 130.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 61.291667,
+      "post_injection_mean": 61.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 102.291667,
+      "post_injection_mean": 102.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 120.625,
+      "post_injection_mean": 120.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-11",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 145.565217,
+      "post_injection_mean": 145.565217,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 84.75,
+      "post_injection_mean": 84.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 90.083333,
+      "post_injection_mean": 90.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 136.125,
+      "post_injection_mean": 136.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 130.25,
+      "post_injection_mean": 130.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 33.125,
+      "post_injection_mean": 33.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 156.0,
+      "post_injection_mean": 156.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 142.875,
+      "post_injection_mean": 142.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 133.5,
+      "post_injection_mean": 133.5,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 164.333333,
+      "post_injection_mean": 164.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 174.541667,
+      "post_injection_mean": 174.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 70.125,
+      "post_injection_mean": 70.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 168.166667,
+      "post_injection_mean": 168.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 174.625,
+      "post_injection_mean": 174.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 169.708333,
+      "post_injection_mean": 169.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 183.333333,
+      "post_injection_mean": 183.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 161.333333,
+      "post_injection_mean": 161.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-28",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 169.083333,
+      "post_injection_mean": 169.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 191.458333,
+      "post_injection_mean": 191.458333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-04-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 221.333333,
+      "post_injection_mean": 221.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 139.625,
+      "post_injection_mean": 139.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 183.375,
+      "post_injection_mean": 183.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 185.458333,
+      "post_injection_mean": 185.458333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 109.708333,
+      "post_injection_mean": 109.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 184.708333,
+      "post_injection_mean": 184.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 192.0,
+      "post_injection_mean": 192.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 196.416667,
+      "post_injection_mean": 196.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 180.541667,
+      "post_injection_mean": 180.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 181.75,
+      "post_injection_mean": 181.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 200.125,
+      "post_injection_mean": 200.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-11",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 174.25,
+      "post_injection_mean": 174.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 202.666667,
+      "post_injection_mean": 202.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 171.041667,
+      "post_injection_mean": 171.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 142.041667,
+      "post_injection_mean": 142.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 189.708333,
+      "post_injection_mean": 189.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 164.916667,
+      "post_injection_mean": 164.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 171.791667,
+      "post_injection_mean": 171.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 160.625,
+      "post_injection_mean": 160.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 190.625,
+      "post_injection_mean": 190.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 204.875,
+      "post_injection_mean": 204.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 241.875,
+      "post_injection_mean": 241.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 194.166667,
+      "post_injection_mean": 194.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 178.083333,
+      "post_injection_mean": 178.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 187.166667,
+      "post_injection_mean": 187.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 207.416667,
+      "post_injection_mean": 207.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 194.875,
+      "post_injection_mean": 194.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 194.958333,
+      "post_injection_mean": 194.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-28",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 198.25,
+      "post_injection_mean": 198.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 199.5,
+      "post_injection_mean": 199.5,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 170.75,
+      "post_injection_mean": 170.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-05-31",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 165.916667,
+      "post_injection_mean": 165.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 165.583333,
+      "post_injection_mean": 165.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 207.0,
+      "post_injection_mean": 207.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 221.333333,
+      "post_injection_mean": 221.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 222.583333,
+      "post_injection_mean": 222.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 204.416667,
+      "post_injection_mean": 204.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 189.5,
+      "post_injection_mean": 189.5,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 201.375,
+      "post_injection_mean": 201.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 183.375,
+      "post_injection_mean": 183.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 163.125,
+      "post_injection_mean": 163.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 191.083333,
+      "post_injection_mean": 191.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-11",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 206.916667,
+      "post_injection_mean": 206.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 185.833333,
+      "post_injection_mean": 185.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 209.166667,
+      "post_injection_mean": 209.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 203.791667,
+      "post_injection_mean": 203.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 215.833333,
+      "post_injection_mean": 215.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 156.958333,
+      "post_injection_mean": 156.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 201.833333,
+      "post_injection_mean": 201.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 213.291667,
+      "post_injection_mean": 213.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 197.666667,
+      "post_injection_mean": 197.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 167.083333,
+      "post_injection_mean": 167.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 201.458333,
+      "post_injection_mean": 201.458333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 187.791667,
+      "post_injection_mean": 187.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 199.583333,
+      "post_injection_mean": 199.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 207.958333,
+      "post_injection_mean": 207.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 216.75,
+      "post_injection_mean": 216.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 221.041667,
+      "post_injection_mean": 221.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 196.166667,
+      "post_injection_mean": 196.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-28",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 193.666667,
+      "post_injection_mean": 193.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 217.708333,
+      "post_injection_mean": 217.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-06-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 229.791667,
+      "post_injection_mean": 229.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 223.416667,
+      "post_injection_mean": 223.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 213.291667,
+      "post_injection_mean": 213.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 193.708333,
+      "post_injection_mean": 193.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 251.791667,
+      "post_injection_mean": 251.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 194.375,
+      "post_injection_mean": 194.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 192.875,
+      "post_injection_mean": 192.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 191.333333,
+      "post_injection_mean": 191.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 168.333333,
+      "post_injection_mean": 168.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 222.333333,
+      "post_injection_mean": 222.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 203.375,
+      "post_injection_mean": 203.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-11",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 170.25,
+      "post_injection_mean": 170.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 177.416667,
+      "post_injection_mean": 177.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 180.916667,
+      "post_injection_mean": 180.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 211.833333,
+      "post_injection_mean": 211.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 230.75,
+      "post_injection_mean": 230.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 246.791667,
+      "post_injection_mean": 246.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 220.916667,
+      "post_injection_mean": 220.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 185.75,
+      "post_injection_mean": 185.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 189.208333,
+      "post_injection_mean": 189.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 180.5,
+      "post_injection_mean": 180.5,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 157.666667,
+      "post_injection_mean": 157.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 141.125,
+      "post_injection_mean": 141.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 136.875,
+      "post_injection_mean": 136.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 150.25,
+      "post_injection_mean": 150.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 160.0,
+      "post_injection_mean": 160.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 191.25,
+      "post_injection_mean": 191.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 194.0,
+      "post_injection_mean": 194.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-28",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 182.916667,
+      "post_injection_mean": 182.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 160.25,
+      "post_injection_mean": 160.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 186.458333,
+      "post_injection_mean": 186.458333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-07-31",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 179.25,
+      "post_injection_mean": 179.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 177.75,
+      "post_injection_mean": 177.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 201.875,
+      "post_injection_mean": 201.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 148.916667,
+      "post_injection_mean": 148.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 190.666667,
+      "post_injection_mean": 190.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 202.75,
+      "post_injection_mean": 202.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 178.916667,
+      "post_injection_mean": 178.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 157.708333,
+      "post_injection_mean": 157.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 180.25,
+      "post_injection_mean": 180.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 191.75,
+      "post_injection_mean": 191.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 199.166667,
+      "post_injection_mean": 199.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-11",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 199.666667,
+      "post_injection_mean": 199.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 204.375,
+      "post_injection_mean": 204.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 172.916667,
+      "post_injection_mean": 172.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 159.166667,
+      "post_injection_mean": 159.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 180.75,
+      "post_injection_mean": 180.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 196.875,
+      "post_injection_mean": 196.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 195.583333,
+      "post_injection_mean": 195.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 158.541667,
+      "post_injection_mean": 158.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 173.041667,
+      "post_injection_mean": 173.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 216.291667,
+      "post_injection_mean": 216.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 161.375,
+      "post_injection_mean": 161.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 198.25,
+      "post_injection_mean": 198.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 245.625,
+      "post_injection_mean": 245.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 213.75,
+      "post_injection_mean": 213.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 147.583333,
+      "post_injection_mean": 147.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 194.208333,
+      "post_injection_mean": 194.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-27",
+      "in_drift_window": false,
+      "batch_row_count": 18,
+      "pre_injection_mean": 61.944444,
+      "post_injection_mean": 61.944444,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-28",
+      "in_drift_window": false,
+      "batch_row_count": 17,
+      "pre_injection_mean": 254.941176,
+      "post_injection_mean": 254.941176,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 193.083333,
+      "post_injection_mean": 193.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 216.833333,
+      "post_injection_mean": 216.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-08-31",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 210.75,
+      "post_injection_mean": 210.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 213.125,
+      "post_injection_mean": 213.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 196.958333,
+      "post_injection_mean": 196.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 186.833333,
+      "post_injection_mean": 186.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 205.833333,
+      "post_injection_mean": 205.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 139.625,
+      "post_injection_mean": 139.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-06",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 117.826087,
+      "post_injection_mean": 117.826087,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 83.166667,
+      "post_injection_mean": 83.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-08",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 80.086957,
+      "post_injection_mean": 80.086957,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 147.666667,
+      "post_injection_mean": 147.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 222.708333,
+      "post_injection_mean": 222.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-11",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 210.25,
+      "post_injection_mean": 210.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-12",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 204.913043,
+      "post_injection_mean": 204.913043,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 198.458333,
+      "post_injection_mean": 198.458333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 199.375,
+      "post_injection_mean": 199.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 152.458333,
+      "post_injection_mean": 152.458333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 198.333333,
+      "post_injection_mean": 198.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 187.958333,
+      "post_injection_mean": 187.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 178.083333,
+      "post_injection_mean": 178.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 189.125,
+      "post_injection_mean": 189.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 151.708333,
+      "post_injection_mean": 151.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 181.333333,
+      "post_injection_mean": 181.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 199.791667,
+      "post_injection_mean": 199.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 99.791667,
+      "post_injection_mean": 99.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 225.958333,
+      "post_injection_mean": 225.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 208.75,
+      "post_injection_mean": 208.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 192.916667,
+      "post_injection_mean": 192.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 171.666667,
+      "post_injection_mean": 171.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-28",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 162.791667,
+      "post_injection_mean": 162.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 201.625,
+      "post_injection_mean": 201.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-09-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 216.75,
+      "post_injection_mean": 216.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 101.208333,
+      "post_injection_mean": 101.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 121.583333,
+      "post_injection_mean": 121.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 148.75,
+      "post_injection_mean": 148.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 185.666667,
+      "post_injection_mean": 185.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 201.083333,
+      "post_injection_mean": 201.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 198.541667,
+      "post_injection_mean": 198.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 207.708333,
+      "post_injection_mean": 207.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 225.375,
+      "post_injection_mean": 225.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 229.625,
+      "post_injection_mean": 229.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 213.208333,
+      "post_injection_mean": 213.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-11",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 190.125,
+      "post_injection_mean": 190.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 100.666667,
+      "post_injection_mean": 100.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 121.375,
+      "post_injection_mean": 121.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 151.833333,
+      "post_injection_mean": 151.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 217.375,
+      "post_injection_mean": 217.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 210.041667,
+      "post_injection_mean": 210.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 190.416667,
+      "post_injection_mean": 190.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 197.833333,
+      "post_injection_mean": 197.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-19",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 105.391304,
+      "post_injection_mean": 105.391304,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 174.791667,
+      "post_injection_mean": 174.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 179.333333,
+      "post_injection_mean": 179.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 179.5,
+      "post_injection_mean": 179.5,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 182.541667,
+      "post_injection_mean": 182.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 174.458333,
+      "post_injection_mean": 174.458333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 195.291667,
+      "post_injection_mean": 195.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 162.25,
+      "post_injection_mean": 162.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 110.791667,
+      "post_injection_mean": 110.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-28",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 156.125,
+      "post_injection_mean": 156.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 26.125,
+      "post_injection_mean": 26.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 138.791667,
+      "post_injection_mean": 138.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-10-31",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 152.875,
+      "post_injection_mean": 152.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 169.5,
+      "post_injection_mean": 169.5,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 174.416667,
+      "post_injection_mean": 174.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 165.583333,
+      "post_injection_mean": 165.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 168.583333,
+      "post_injection_mean": 168.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 163.583333,
+      "post_injection_mean": 163.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 152.041667,
+      "post_injection_mean": 152.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 168.125,
+      "post_injection_mean": 168.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 175.208333,
+      "post_injection_mean": 175.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 171.208333,
+      "post_injection_mean": 171.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 122.208333,
+      "post_injection_mean": 122.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-11",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 140.333333,
+      "post_injection_mean": 140.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 169.458333,
+      "post_injection_mean": 169.458333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 154.875,
+      "post_injection_mean": 154.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 186.916667,
+      "post_injection_mean": 186.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 174.791667,
+      "post_injection_mean": 174.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 75.708333,
+      "post_injection_mean": 75.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 127.208333,
+      "post_injection_mean": 127.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 141.333333,
+      "post_injection_mean": 141.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 152.625,
+      "post_injection_mean": 152.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 146.666667,
+      "post_injection_mean": 146.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 115.208333,
+      "post_injection_mean": 115.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 66.958333,
+      "post_injection_mean": 66.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 106.916667,
+      "post_injection_mean": 106.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 62.291667,
+      "post_injection_mean": 62.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 116.333333,
+      "post_injection_mean": 116.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 127.833333,
+      "post_injection_mean": 127.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 127.958333,
+      "post_injection_mean": 127.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-28",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 168.130435,
+      "post_injection_mean": 168.130435,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 121.416667,
+      "post_injection_mean": 121.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-11-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 150.541667,
+      "post_injection_mean": 150.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 155.291667,
+      "post_injection_mean": 155.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 164.166667,
+      "post_injection_mean": 164.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 150.583333,
+      "post_injection_mean": 150.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 145.208333,
+      "post_injection_mean": 145.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 158.791667,
+      "post_injection_mean": 158.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 108.083333,
+      "post_injection_mean": 108.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 29.375,
+      "post_injection_mean": 29.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 138.416667,
+      "post_injection_mean": 138.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 150.833333,
+      "post_injection_mean": 150.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 132.916667,
+      "post_injection_mean": 132.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-11",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 114.291667,
+      "post_injection_mean": 114.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 137.916667,
+      "post_injection_mean": 137.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 146.791667,
+      "post_injection_mean": 146.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 155.833333,
+      "post_injection_mean": 155.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 154.541667,
+      "post_injection_mean": 154.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 149.041667,
+      "post_injection_mean": 149.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 114.125,
+      "post_injection_mean": 114.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 101.291667,
+      "post_injection_mean": 101.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 141.791667,
+      "post_injection_mean": 141.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 156.25,
+      "post_injection_mean": 156.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 110.833333,
+      "post_injection_mean": 110.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 127.833333,
+      "post_injection_mean": 127.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 92.041667,
+      "post_injection_mean": 92.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 42.125,
+      "post_injection_mean": 42.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-25",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 32.782609,
+      "post_injection_mean": 32.782609,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-26",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 57.26087,
+      "post_injection_mean": 57.26087,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 48.416667,
+      "post_injection_mean": 48.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-28",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 100.086957,
+      "post_injection_mean": 100.086957,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 100.958333,
+      "post_injection_mean": 100.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 124.958333,
+      "post_injection_mean": 124.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2011-12-31",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 103.541667,
+      "post_injection_mean": 103.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 95.583333,
+      "post_injection_mean": 95.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-02",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 84.826087,
+      "post_injection_mean": 84.826087,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 93.166667,
+      "post_injection_mean": 93.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 98.666667,
+      "post_injection_mean": 98.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 136.333333,
+      "post_injection_mean": 136.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 170.75,
+      "post_injection_mean": 170.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 188.375,
+      "post_injection_mean": 188.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 142.708333,
+      "post_injection_mean": 142.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 99.0,
+      "post_injection_mean": 99.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-10",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 156.434783,
+      "post_injection_mean": 156.434783,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-11",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 90.708333,
+      "post_injection_mean": 90.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 170.708333,
+      "post_injection_mean": 170.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 133.916667,
+      "post_injection_mean": 133.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 103.875,
+      "post_injection_mean": 103.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 96.291667,
+      "post_injection_mean": 96.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 95.75,
+      "post_injection_mean": 95.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-17",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 127.608696,
+      "post_injection_mean": 127.608696,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 140.666667,
+      "post_injection_mean": 140.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 137.166667,
+      "post_injection_mean": 137.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 131.791667,
+      "post_injection_mean": 131.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 54.208333,
+      "post_injection_mean": 54.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 82.375,
+      "post_injection_mean": 82.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 101.333333,
+      "post_injection_mean": 101.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 180.791667,
+      "post_injection_mean": 180.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 177.916667,
+      "post_injection_mean": 177.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 169.791667,
+      "post_injection_mean": 169.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 144.0,
+      "post_injection_mean": 144.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-28",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 167.625,
+      "post_injection_mean": 167.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 135.125,
+      "post_injection_mean": 135.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 151.0,
+      "post_injection_mean": 151.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-01-31",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 187.875,
+      "post_injection_mean": 187.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 190.791667,
+      "post_injection_mean": 190.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 156.708333,
+      "post_injection_mean": 156.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 172.958333,
+      "post_injection_mean": 172.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 118.0,
+      "post_injection_mean": 118.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 122.791667,
+      "post_injection_mean": 122.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-06",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 164.521739,
+      "post_injection_mean": 164.521739,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 182.291667,
+      "post_injection_mean": 182.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 116.75,
+      "post_injection_mean": 116.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 159.583333,
+      "post_injection_mean": 159.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 159.625,
+      "post_injection_mean": 159.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-11",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 90.375,
+      "post_injection_mean": 90.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 63.708333,
+      "post_injection_mean": 63.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 142.583333,
+      "post_injection_mean": 142.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 163.416667,
+      "post_injection_mean": 163.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 173.708333,
+      "post_injection_mean": 173.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 125.208333,
+      "post_injection_mean": 125.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 173.083333,
+      "post_injection_mean": 173.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 179.916667,
+      "post_injection_mean": 179.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 112.041667,
+      "post_injection_mean": 112.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-20",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 136.043478,
+      "post_injection_mean": 136.043478,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-21",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 164.217391,
+      "post_injection_mean": 164.217391,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 198.875,
+      "post_injection_mean": 198.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 210.916667,
+      "post_injection_mean": 210.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 145.291667,
+      "post_injection_mean": 145.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 113.833333,
+      "post_injection_mean": 113.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 141.208333,
+      "post_injection_mean": 141.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 180.083333,
+      "post_injection_mean": 180.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-28",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 181.791667,
+      "post_injection_mean": 181.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-02-29",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 79.73913,
+      "post_injection_mean": 79.73913,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 207.916667,
+      "post_injection_mean": 207.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 133.083333,
+      "post_injection_mean": 133.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 169.416667,
+      "post_injection_mean": 169.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 142.625,
+      "post_injection_mean": 142.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 138.875,
+      "post_injection_mean": 138.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 164.833333,
+      "post_injection_mean": 164.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 204.833333,
+      "post_injection_mean": 204.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 224.25,
+      "post_injection_mean": 224.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 190.375,
+      "post_injection_mean": 190.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 171.583333,
+      "post_injection_mean": 171.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-11",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 213.521739,
+      "post_injection_mean": 213.521739,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 220.75,
+      "post_injection_mean": 220.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 243.625,
+      "post_injection_mean": 243.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 263.0,
+      "post_injection_mean": 263.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 258.0,
+      "post_injection_mean": 258.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 182.416667,
+      "post_injection_mean": 182.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 326.5,
+      "post_injection_mean": 326.5,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 245.5,
+      "post_injection_mean": 245.5,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 256.375,
+      "post_injection_mean": 256.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 253.875,
+      "post_injection_mean": 253.875,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 259.583333,
+      "post_injection_mean": 259.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 286.291667,
+      "post_injection_mean": 286.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 348.416667,
+      "post_injection_mean": 348.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 140.5,
+      "post_injection_mean": 140.5,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 208.166667,
+      "post_injection_mean": 208.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 231.583333,
+      "post_injection_mean": 231.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 212.583333,
+      "post_injection_mean": 212.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-28",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 237.416667,
+      "post_injection_mean": 237.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 255.541667,
+      "post_injection_mean": 255.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 227.458333,
+      "post_injection_mean": 227.458333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-03-31",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 259.791667,
+      "post_injection_mean": 259.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 251.708333,
+      "post_injection_mean": 251.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-02",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 258.086957,
+      "post_injection_mean": 258.086957,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 282.166667,
+      "post_injection_mean": 282.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 268.166667,
+      "post_injection_mean": 268.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 269.041667,
+      "post_injection_mean": 269.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 269.166667,
+      "post_injection_mean": 269.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 285.708333,
+      "post_injection_mean": 285.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 215.375,
+      "post_injection_mean": 215.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 232.708333,
+      "post_injection_mean": 232.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 246.583333,
+      "post_injection_mean": 246.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-11",
+      "in_drift_window": false,
+      "batch_row_count": 23,
+      "pre_injection_mean": 211.391304,
+      "post_injection_mean": 211.391304,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 225.375,
+      "post_injection_mean": 225.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 266.583333,
+      "post_injection_mean": 266.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 310.833333,
+      "post_injection_mean": 310.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 297.166667,
+      "post_injection_mean": 297.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 265.416667,
+      "post_injection_mean": 265.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 278.791667,
+      "post_injection_mean": 278.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 181.958333,
+      "post_injection_mean": 181.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 273.541667,
+      "post_injection_mean": 273.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 303.75,
+      "post_injection_mean": 303.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 276.0,
+      "post_injection_mean": 276.0,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 42.791667,
+      "post_injection_mean": 42.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 133.916667,
+      "post_injection_mean": 133.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 234.708333,
+      "post_injection_mean": 234.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 258.166667,
+      "post_injection_mean": 258.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 209.416667,
+      "post_injection_mean": 209.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 259.708333,
+      "post_injection_mean": 259.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-28",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 175.833333,
+      "post_injection_mean": 175.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 262.666667,
+      "post_injection_mean": 262.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-04-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 232.166667,
+      "post_injection_mean": 232.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 239.166667,
+      "post_injection_mean": 239.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 257.041667,
+      "post_injection_mean": 257.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 267.541667,
+      "post_injection_mean": 267.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 262.333333,
+      "post_injection_mean": 262.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 286.791667,
+      "post_injection_mean": 286.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 264.958333,
+      "post_injection_mean": 264.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 261.375,
+      "post_injection_mean": 261.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 238.666667,
+      "post_injection_mean": 238.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 196.541667,
+      "post_injection_mean": 196.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 273.833333,
+      "post_injection_mean": 273.833333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-11",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 292.916667,
+      "post_injection_mean": 292.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 309.541667,
+      "post_injection_mean": 309.541667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 254.916667,
+      "post_injection_mean": 254.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 118.458333,
+      "post_injection_mean": 118.458333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 213.125,
+      "post_injection_mean": 213.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 309.333333,
+      "post_injection_mean": 309.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 307.666667,
+      "post_injection_mean": 307.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 318.291667,
+      "post_injection_mean": 318.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 345.583333,
+      "post_injection_mean": 345.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 297.041667,
+      "post_injection_mean": 297.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 181.625,
+      "post_injection_mean": 181.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 253.041667,
+      "post_injection_mean": 253.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 219.166667,
+      "post_injection_mean": 219.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 282.083333,
+      "post_injection_mean": 282.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 280.583333,
+      "post_injection_mean": 280.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 272.333333,
+      "post_injection_mean": 272.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 274.625,
+      "post_injection_mean": 274.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-28",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 251.791667,
+      "post_injection_mean": 251.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 239.291667,
+      "post_injection_mean": 239.291667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 285.625,
+      "post_injection_mean": 285.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-05-31",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 305.75,
+      "post_injection_mean": 305.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-01",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 171.958333,
+      "post_injection_mean": 171.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-02",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 338.333333,
+      "post_injection_mean": 338.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-03",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 318.375,
+      "post_injection_mean": 318.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-04",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 291.583333,
+      "post_injection_mean": 291.583333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-05",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 291.708333,
+      "post_injection_mean": 291.708333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-06",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 293.958333,
+      "post_injection_mean": 293.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-07",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 312.25,
+      "post_injection_mean": 312.25,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-08",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 322.333333,
+      "post_injection_mean": 322.333333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-09",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 312.416667,
+      "post_injection_mean": 312.416667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-10",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 274.916667,
+      "post_injection_mean": 274.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-11",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 277.666667,
+      "post_injection_mean": 277.666667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-12",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 207.166667,
+      "post_injection_mean": 207.166667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-13",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 309.208333,
+      "post_injection_mean": 309.208333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-14",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 306.791667,
+      "post_injection_mean": 306.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-15",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 319.375,
+      "post_injection_mean": 319.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-16",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 320.916667,
+      "post_injection_mean": 320.916667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-17",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 290.75,
+      "post_injection_mean": 290.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-18",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 212.458333,
+      "post_injection_mean": 212.458333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-19",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 284.375,
+      "post_injection_mean": 284.375,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-20",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 258.791667,
+      "post_injection_mean": 258.791667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-21",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 246.041667,
+      "post_injection_mean": 246.041667,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-22",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 242.625,
+      "post_injection_mean": 242.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-23",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 310.75,
+      "post_injection_mean": 310.75,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-24",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 287.125,
+      "post_injection_mean": 287.125,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-25",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 282.458333,
+      "post_injection_mean": 282.458333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-26",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 310.083333,
+      "post_injection_mean": 310.083333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-27",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 305.625,
+      "post_injection_mean": 305.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-28",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 286.625,
+      "post_injection_mean": 286.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-29",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 227.625,
+      "post_injection_mean": 227.625,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-06-30",
+      "in_drift_window": false,
+      "batch_row_count": 24,
+      "pre_injection_mean": 236.958333,
+      "post_injection_mean": 236.958333,
+      "actual_mean_shift": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-01",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 230.458333,
+      "post_injection_mean": 305.458333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-02",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 259.458333,
+      "post_injection_mean": 334.458333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-03",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 277.5,
+      "post_injection_mean": 352.5,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-04",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 308.458333,
+      "post_injection_mean": 383.458333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-05",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 260.041667,
+      "post_injection_mean": 335.041667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-06",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 258.625,
+      "post_injection_mean": 333.625,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-07",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 201.666667,
+      "post_injection_mean": 276.666667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-08",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 194.666667,
+      "post_injection_mean": 269.666667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-09",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 273.708333,
+      "post_injection_mean": 348.708333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-10",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 262.083333,
+      "post_injection_mean": 337.083333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-11",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 302.666667,
+      "post_injection_mean": 377.666667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-12",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 310.25,
+      "post_injection_mean": 385.25,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-13",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 312.458333,
+      "post_injection_mean": 387.458333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-14",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 290.375,
+      "post_injection_mean": 365.375,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-15",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 251.291667,
+      "post_injection_mean": 326.291667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-16",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 284.583333,
+      "post_injection_mean": 359.583333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-17",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 282.75,
+      "post_injection_mean": 357.75,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-18",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 238.041667,
+      "post_injection_mean": 313.041667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-19",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 274.625,
+      "post_injection_mean": 349.625,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-20",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 244.583333,
+      "post_injection_mean": 319.583333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-21",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 185.791667,
+      "post_injection_mean": 260.791667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-22",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 308.75,
+      "post_injection_mean": 383.75,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-23",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 290.25,
+      "post_injection_mean": 365.25,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-24",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 316.333333,
+      "post_injection_mean": 391.333333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-25",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 340.541667,
+      "post_injection_mean": 415.541667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-26",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 285.875,
+      "post_injection_mean": 360.875,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-27",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 287.666667,
+      "post_injection_mean": 362.666667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-28",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 278.541667,
+      "post_injection_mean": 353.541667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-29",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 274.875,
+      "post_injection_mean": 349.875,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-30",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 296.041667,
+      "post_injection_mean": 371.041667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-07-31",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 300.666667,
+      "post_injection_mean": 375.666667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-01",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 315.833333,
+      "post_injection_mean": 390.833333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-02",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 302.541667,
+      "post_injection_mean": 377.541667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-03",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 298.958333,
+      "post_injection_mean": 373.958333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-04",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 284.333333,
+      "post_injection_mean": 359.333333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-05",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 227.666667,
+      "post_injection_mean": 302.666667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-06",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 292.208333,
+      "post_injection_mean": 367.208333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-07",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 303.041667,
+      "post_injection_mean": 378.041667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-08",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 313.916667,
+      "post_injection_mean": 388.916667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-09",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 303.583333,
+      "post_injection_mean": 378.583333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-10",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 241.083333,
+      "post_injection_mean": 316.083333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-11",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 262.458333,
+      "post_injection_mean": 337.458333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-12",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 272.666667,
+      "post_injection_mean": 347.666667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-13",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 286.791667,
+      "post_injection_mean": 361.791667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-14",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 282.666667,
+      "post_injection_mean": 357.666667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-15",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 306.125,
+      "post_injection_mean": 381.125,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-16",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 316.875,
+      "post_injection_mean": 391.875,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-17",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 297.833333,
+      "post_injection_mean": 372.833333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-18",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 327.708333,
+      "post_injection_mean": 402.708333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-19",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 189.541667,
+      "post_injection_mean": 264.541667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-20",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 272.083333,
+      "post_injection_mean": 347.083333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-21",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 291.916667,
+      "post_injection_mean": 366.916667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-22",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 307.291667,
+      "post_injection_mean": 382.291667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-23",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 323.541667,
+      "post_injection_mean": 398.541667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-24",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 315.916667,
+      "post_injection_mean": 390.916667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-25",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 252.208333,
+      "post_injection_mean": 327.208333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-26",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 218.958333,
+      "post_injection_mean": 293.958333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-27",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 288.208333,
+      "post_injection_mean": 363.208333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-28",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 293.333333,
+      "post_injection_mean": 368.333333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-29",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 320.708333,
+      "post_injection_mean": 395.708333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-30",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 321.375,
+      "post_injection_mean": 396.375,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-08-31",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 306.25,
+      "post_injection_mean": 381.25,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-01",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 255.833333,
+      "post_injection_mean": 330.833333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-02",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 242.083333,
+      "post_injection_mean": 317.083333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-03",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 251.416667,
+      "post_injection_mean": 326.416667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-04",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 286.0,
+      "post_injection_mean": 361.0,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-05",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 296.333333,
+      "post_injection_mean": 371.333333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-06",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 258.458333,
+      "post_injection_mean": 333.458333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-07",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 312.666667,
+      "post_injection_mean": 387.666667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-08",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 249.0,
+      "post_injection_mean": 324.0,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-09",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 342.791667,
+      "post_injection_mean": 417.791667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-10",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 313.541667,
+      "post_injection_mean": 388.541667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-11",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 323.625,
+      "post_injection_mean": 398.625,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-12",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 327.916667,
+      "post_injection_mean": 402.916667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-13",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 325.166667,
+      "post_injection_mean": 400.166667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-14",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 333.708333,
+      "post_injection_mean": 408.708333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-15",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 363.083333,
+      "post_injection_mean": 438.083333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-16",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 305.541667,
+      "post_injection_mean": 380.541667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-17",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 286.208333,
+      "post_injection_mean": 361.208333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-18",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 169.708333,
+      "post_injection_mean": 244.708333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-19",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 316.291667,
+      "post_injection_mean": 391.291667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-20",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 321.666667,
+      "post_injection_mean": 396.666667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-21",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 340.291667,
+      "post_injection_mean": 415.291667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-22",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 349.791667,
+      "post_injection_mean": 424.791667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-23",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 329.458333,
+      "post_injection_mean": 404.458333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-24",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 309.833333,
+      "post_injection_mean": 384.833333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-25",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 314.083333,
+      "post_injection_mean": 389.083333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-26",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 322.208333,
+      "post_injection_mean": 397.208333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-27",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 308.041667,
+      "post_injection_mean": 383.041667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-28",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 308.958333,
+      "post_injection_mean": 383.958333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-29",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 356.458333,
+      "post_injection_mean": 431.458333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-09-30",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 287.041667,
+      "post_injection_mean": 362.041667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-01",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 282.416667,
+      "post_injection_mean": 357.416667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-02",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 193.291667,
+      "post_injection_mean": 268.291667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-03",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 315.5,
+      "post_injection_mean": 390.5,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-04",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 305.333333,
+      "post_injection_mean": 380.333333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-05",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 339.833333,
+      "post_injection_mean": 414.833333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-06",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 331.875,
+      "post_injection_mean": 406.875,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-07",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 146.25,
+      "post_injection_mean": 221.25,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-08",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 228.25,
+      "post_injection_mean": 303.25,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-09",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 266.333333,
+      "post_injection_mean": 341.333333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-10",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 320.458333,
+      "post_injection_mean": 395.458333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-11",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 315.416667,
+      "post_injection_mean": 390.416667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-12",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 303.416667,
+      "post_injection_mean": 378.416667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-13",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 296.208333,
+      "post_injection_mean": 371.208333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-14",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 276.625,
+      "post_injection_mean": 351.625,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-15",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 244.791667,
+      "post_injection_mean": 319.791667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-16",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 313.916667,
+      "post_injection_mean": 388.916667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-17",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 310.875,
+      "post_injection_mean": 385.875,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-18",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 312.875,
+      "post_injection_mean": 387.875,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-19",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 226.0,
+      "post_injection_mean": 301.0,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-20",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 337.083333,
+      "post_injection_mean": 412.083333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-21",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 284.333333,
+      "post_injection_mean": 359.333333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-22",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 294.083333,
+      "post_injection_mean": 369.083333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-23",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 311.083333,
+      "post_injection_mean": 386.083333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-24",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 320.541667,
+      "post_injection_mean": 395.541667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-25",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 306.625,
+      "post_injection_mean": 381.625,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-26",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 310.166667,
+      "post_injection_mean": 385.166667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-27",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 327.166667,
+      "post_injection_mean": 402.166667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-28",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 185.791667,
+      "post_injection_mean": 260.791667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-29",
+      "in_drift_window": true,
+      "batch_row_count": 1,
+      "pre_injection_mean": 22.0,
+      "post_injection_mean": 97.0,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-30",
+      "in_drift_window": true,
+      "batch_row_count": 11,
+      "pre_injection_mean": 99.636364,
+      "post_injection_mean": 174.636364,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-10-31",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 231.916667,
+      "post_injection_mean": 306.916667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-01",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 249.416667,
+      "post_injection_mean": 324.416667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-02",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 243.625,
+      "post_injection_mean": 318.625,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-03",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 214.083333,
+      "post_injection_mean": 289.083333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-04",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 212.791667,
+      "post_injection_mean": 287.791667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-05",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 219.125,
+      "post_injection_mean": 294.125,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-06",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 236.916667,
+      "post_injection_mean": 311.916667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-07",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 209.791667,
+      "post_injection_mean": 284.791667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-08",
+      "in_drift_window": true,
+      "batch_row_count": 23,
+      "pre_injection_mean": 231.086957,
+      "post_injection_mean": 306.086957,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-09",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 249.666667,
+      "post_injection_mean": 324.666667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-10",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 272.333333,
+      "post_injection_mean": 347.333333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-11",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 285.5,
+      "post_injection_mean": 360.5,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-12",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 261.208333,
+      "post_injection_mean": 336.208333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-13",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 170.583333,
+      "post_injection_mean": 245.583333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-14",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 228.958333,
+      "post_injection_mean": 303.958333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-15",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 226.875,
+      "post_injection_mean": 301.875,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-16",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 237.416667,
+      "post_injection_mean": 312.416667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-17",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 234.541667,
+      "post_injection_mean": 309.541667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-18",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 194.541667,
+      "post_injection_mean": 269.541667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-19",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 229.125,
+      "post_injection_mean": 304.125,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-20",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 234.75,
+      "post_injection_mean": 309.75,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-21",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 214.416667,
+      "post_injection_mean": 289.416667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-22",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 101.041667,
+      "post_injection_mean": 176.041667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-23",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 162.916667,
+      "post_injection_mean": 237.916667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-24",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 94.875,
+      "post_injection_mean": 169.875,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-25",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 101.0,
+      "post_injection_mean": 176.0,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-26",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 211.958333,
+      "post_injection_mean": 286.958333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-27",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 164.958333,
+      "post_injection_mean": 239.958333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-28",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 219.166667,
+      "post_injection_mean": 294.166667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-29",
+      "in_drift_window": true,
+      "batch_row_count": 23,
+      "pre_injection_mean": 231.434783,
+      "post_injection_mean": 306.434783,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-11-30",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 236.166667,
+      "post_injection_mean": 311.166667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-01",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 216.291667,
+      "post_injection_mean": 291.291667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-02",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 193.708333,
+      "post_injection_mean": 268.708333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-03",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 259.75,
+      "post_injection_mean": 334.75,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-04",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 275.25,
+      "post_injection_mean": 350.25,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-05",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 238.708333,
+      "post_injection_mean": 313.708333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-06",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 223.958333,
+      "post_injection_mean": 298.958333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-07",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 208.666667,
+      "post_injection_mean": 283.666667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-08",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 232.583333,
+      "post_injection_mean": 307.583333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-09",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 134.5,
+      "post_injection_mean": 209.5,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-10",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 215.416667,
+      "post_injection_mean": 290.416667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-11",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 229.208333,
+      "post_injection_mean": 304.208333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-12",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 221.625,
+      "post_injection_mean": 296.625,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-13",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 230.5,
+      "post_injection_mean": 305.5,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-14",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 233.791667,
+      "post_injection_mean": 308.791667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-15",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 210.291667,
+      "post_injection_mean": 285.291667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-16",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 157.75,
+      "post_injection_mean": 232.75,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-17",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 191.041667,
+      "post_injection_mean": 266.041667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-18",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 231.541667,
+      "post_injection_mean": 306.541667,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-19",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 219.458333,
+      "post_injection_mean": 294.458333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-20",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 172.0,
+      "post_injection_mean": 247.0,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-21",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 150.958333,
+      "post_injection_mean": 225.958333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-22",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 72.875,
+      "post_injection_mean": 147.875,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-23",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 74.458333,
+      "post_injection_mean": 149.458333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-24",
+      "in_drift_window": true,
+      "batch_row_count": 23,
+      "pre_injection_mean": 40.0,
+      "post_injection_mean": 115.0,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-25",
+      "in_drift_window": true,
+      "batch_row_count": 23,
+      "pre_injection_mean": 44.043478,
+      "post_injection_mean": 119.043478,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-26",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 18.375,
+      "post_injection_mean": 93.375,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-27",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 88.083333,
+      "post_injection_mean": 163.083333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-28",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 128.958333,
+      "post_injection_mean": 203.958333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-29",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 55.875,
+      "post_injection_mean": 130.875,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-30",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 74.833333,
+      "post_injection_mean": 149.833333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    },
+    {
+      "batch_date": "2012-12-31",
+      "in_drift_window": true,
+      "batch_row_count": 24,
+      "pre_injection_mean": 113.708333,
+      "post_injection_mean": 188.708333,
+      "actual_mean_shift": 75.0,
+      "clipped_count": 0
+    }
+  ]
+}

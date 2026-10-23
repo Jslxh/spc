@@ -1,0 +1,13 @@
+scenario,target_metric,method,signal_scope,onset_reference_type,onset_date,first_detection_date,detection_lag_days,detection_status,pre_onset_false_alarm_rate,batch_recall_tpr,batch_fallout_fpr,batch_miss_rate_fnr,batch_precision,batch_f1_score
+abrupt_shift_cnt,cnt_mean,great_expectations,target_metric,configured,2012-07-01,2012-07-01,0.0,not distinguishable from pre-existing alarms,0.576923,0.918478,0.576923,0.081522,0.616788,0.737991
+abrupt_shift_cnt,cnt_mean,shewhart_individuals,target_metric,configured,2012-07-01,2012-07-01,0.0,not distinguishable from pre-existing alarms,0.576923,0.918478,0.576923,0.081522,0.616788,0.737991
+abrupt_shift_cnt,cnt_mean,cusum,target_metric,configured,2012-07-01,2012-07-01,0.0,not distinguishable from pre-existing alarms,0.774725,1.0,0.774725,0.0,0.566154,0.722986
+abrupt_shift_cnt,cnt_mean,great_expectations_composite,composite_suite,configured,2012-07-01,2012-07-01,0.0,not distinguishable from pre-existing alarms,0.576923,0.929348,0.576923,0.070652,0.619565,0.743478
+gradual_null_temp,temp_null_rate,great_expectations,target_metric,configured,2012-06-01,2012-06-10,9.0,detected,0.0,0.897196,0.0,0.102804,1.0,0.945813
+gradual_null_temp,temp_null_rate,p_chart,target_metric,configured,2012-06-01,2012-06-10,9.0,detected,0.0,0.897196,0.0,0.102804,1.0,0.945813
+gradual_null_temp,temp_null_rate,cusum,target_metric,configured,2012-06-01,none,,not_applicable,0.0,,,,,
+gradual_null_temp,temp_null_rate,great_expectations_composite,composite_suite,configured,2012-06-01,2012-06-02,1.0,not distinguishable from pre-existing alarms,0.506579,0.990654,0.506579,0.009346,0.733564,0.842942
+gradual_null_temp,temp_null_rate,great_expectations,target_metric,first_observed_defect,2012-06-10,2012-06-10,0.0,detected,0.0,0.936585,0.0,0.063415,1.0,0.967254
+gradual_null_temp,temp_null_rate,p_chart,target_metric,first_observed_defect,2012-06-10,2012-06-10,0.0,detected,0.0,0.936585,0.0,0.063415,1.0,0.967254
+gradual_null_temp,temp_null_rate,cusum,target_metric,first_observed_defect,2012-06-10,none,,not_applicable,0.0,,,,,
+gradual_null_temp,temp_null_rate,great_expectations_composite,composite_suite,first_observed_defect,2012-06-10,2012-06-10,0.0,not distinguishable from pre-existing alarms,0.52795,0.995122,0.52795,0.004878,0.705882,0.825911

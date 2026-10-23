@@ -1,0 +1,13 @@
+scenario,target_metric,method,onset_reference_type,onset_date,total_alarm_batches,total_alarm_episodes,pre_onset_alarm_episodes,post_onset_alarm_episodes,first_crossing_date,first_post_onset_crossing_date,crossing_lag_days,alarming_on_eve_of_onset,detection_status
+abrupt_shift_cnt,cnt_mean,great_expectations,configured,2012-07-01,274,18,15,3,2012-01-21,2012-10-31,122.0,True,not distinguishable from pre-existing alarms
+abrupt_shift_cnt,cnt_mean,shewhart_individuals,configured,2012-07-01,274,18,15,3,2012-01-21,2012-10-31,122.0,True,not distinguishable from pre-existing alarms
+abrupt_shift_cnt,cnt_mean,cusum,configured,2012-07-01,325,7,7,0,2012-01-03,none,,True,not distinguishable from pre-existing alarms
+abrupt_shift_cnt,cnt_mean,great_expectations_composite,configured,2012-07-01,276,17,15,2,2012-01-21,2012-11-23,145.0,True,not distinguishable from pre-existing alarms
+gradual_null_temp,temp_null_rate,great_expectations,configured,2012-06-01,192,10,0,10,2012-06-10,2012-06-10,9.0,False,detected
+gradual_null_temp,temp_null_rate,p_chart,configured,2012-06-01,192,10,0,10,2012-06-10,2012-06-10,9.0,False,detected
+gradual_null_temp,temp_null_rate,cusum,configured,2012-06-01,0,0,0,0,none,none,,False,not_applicable
+gradual_null_temp,temp_null_rate,great_expectations_composite,configured,2012-06-01,289,15,13,2,2012-01-21,2012-06-02,1.0,True,not distinguishable from pre-existing alarms
+gradual_null_temp,temp_null_rate,great_expectations,first_observed_defect,2012-06-10,192,10,0,10,2012-06-10,2012-06-10,0.0,False,detected
+gradual_null_temp,temp_null_rate,p_chart,first_observed_defect,2012-06-10,192,10,0,10,2012-06-10,2012-06-10,0.0,False,detected
+gradual_null_temp,temp_null_rate,cusum,first_observed_defect,2012-06-10,0,0,0,0,none,none,,False,not_applicable
+gradual_null_temp,temp_null_rate,great_expectations_composite,first_observed_defect,2012-06-10,289,15,14,1,2012-01-21,2012-06-13,3.0,True,not distinguishable from pre-existing alarms

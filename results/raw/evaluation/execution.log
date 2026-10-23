@@ -1,0 +1,9 @@
+[2026-10-23 09:48:51,624] INFO: === Starting Unified SPC Evaluation ===
+[2026-10-23 09:48:51,624] INFO: Loading existing CUSUM monitoring artifact: /home/jslxh/PROJETCS/spc/results/processed/monitoring_cusum_cnt_mean.csv
+[2026-10-23 09:48:51,860] INFO: All 366 daily observation dates strictly aligned across all monitoring artifacts.
+[2026-10-23 09:48:51,873] INFO: Saved comparative daily alerts to: /home/jslxh/PROJETCS/spc/results/processed/comparative_daily_alerts.csv
+[2026-10-23 09:48:51,952] INFO: Saved comparative metrics table to: /home/jslxh/PROJETCS/spc/results/tables/comparative_metrics.csv
+[2026-10-23 09:48:51,955] INFO: Saved comparative evaluation summary JSON to: /home/jslxh/PROJETCS/spc/results/processed/comparative_evaluation_summary.json
+[2026-10-23 09:48:51,956] INFO: Saved audit report to results/raw/evaluation/audit_report.json
+[2026-10-23 09:48:51,956] INFO: Saved environment snapshot and method parameters to results/raw/evaluation/
+[2026-10-23 09:48:51,956] INFO: === Completed Unified SPC Evaluation ===
