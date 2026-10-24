@@ -718,3 +718,186 @@ def monitor_p_chart(
         missing_observations=missing_count,
         first_alert_date=first_alert_date,
     )
+
+
+def generate_and_save_shewhart_cnt_mean(
+    data_path: str | Path,
+    output_path: str | Path,
+    baseline_start: str = "2011-01-01",
+    baseline_end: str = "2011-12-31",
+    monitoring_start: str = "2012-01-01",
+    monitoring_end: str = "2012-12-31",
+    metric_column: str = "cnt_mean",
+    two_sided: bool = True,
+    alert_on_missing: bool = True,
+) -> pd.DataFrame:
+    """Calibrate Phase I Individuals chart and save Phase II monitoring observations to CSV.
+
+    Parameters
+    ----------
+    data_path : str | Path
+        Path to input CSV containing daily metrics.
+    output_path : str | Path
+        Target CSV path to write the Phase II monitoring records.
+    baseline_start : str
+        Start of Phase I baseline (YYYY-MM-DD), default '2011-01-01'.
+    baseline_end : str
+        End of Phase I baseline (YYYY-MM-DD), default '2011-12-31'.
+    monitoring_start : str
+        Start of Phase II monitoring (YYYY-MM-DD), default '2012-01-01'.
+    monitoring_end : str
+        End of Phase II monitoring (YYYY-MM-DD), default '2012-12-31'.
+    metric_column : str
+        Target continuous metric column, default 'cnt_mean'.
+    two_sided : bool
+        Whether to monitor both upper and lower 3-sigma control limits, default True.
+    alert_on_missing : bool
+        Whether missing observations trigger an alert, default True.
+
+    Returns
+    -------
+    pd.DataFrame
+        Phase II monitoring records DataFrame.
+    """
+    df = pd.read_csv(data_path) if not isinstance(data_path, pd.DataFrame) else data_path
+    limits = calibrate_individuals_chart(
+        df=df,
+        metric_column=metric_column,
+        baseline_start=baseline_start,
+        baseline_end=baseline_end,
+    )
+    result = monitor_individuals(
+        df=df,
+        limits=limits,
+        monitoring_start=monitoring_start,
+        monitoring_end=monitoring_end,
+        two_sided=two_sided,
+        alert_on_missing=alert_on_missing,
+    )
+    out_file = Path(output_path)
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    result.records_df.to_csv(out_file, index=False)
+    return result.records_df
+
+
+def generate_and_save_p_chart_temp_null_rate(
+    data_path: str | Path,
+    output_path: str | Path,
+    baseline_start: str = "2011-01-01",
+    baseline_end: str = "2011-12-31",
+    monitoring_start: str = "2012-01-01",
+    monitoring_end: str = "2012-12-31",
+    proportion_column: str = "temp_null_rate",
+    denominator_column: str = "row_count",
+    two_sided: bool = False,
+    alert_on_missing: bool = True,
+) -> pd.DataFrame:
+    """Calibrate Phase I attribute p-chart and save Phase II monitoring observations to CSV.
+
+    Parameters
+    ----------
+    data_path : str | Path
+        Path to input CSV containing daily metrics.
+    output_path : str | Path
+        Target CSV path to write the Phase II monitoring records.
+    baseline_start : str
+        Start of Phase I baseline (YYYY-MM-DD), default '2011-01-01'.
+    baseline_end : str
+        End of Phase I baseline (YYYY-MM-DD), default '2011-12-31'.
+    monitoring_start : str
+        Start of Phase II monitoring (YYYY-MM-DD), default '2012-01-01'.
+    monitoring_end : str
+        End of Phase II monitoring (YYYY-MM-DD), default '2012-12-31'.
+    proportion_column : str
+        Target proportion/defect rate column, default 'temp_null_rate'.
+    denominator_column : str
+        Sample size / denominator column, default 'row_count'.
+    two_sided : bool
+        Whether to monitor both upper and lower limits, default False.
+    alert_on_missing : bool
+        Whether missing observations trigger an alert, default True.
+
+    Returns
+    -------
+    pd.DataFrame
+        Phase II monitoring records DataFrame.
+    """
+    df = pd.read_csv(data_path) if not isinstance(data_path, pd.DataFrame) else data_path
+    limits = calibrate_p_chart(
+        df=df,
+        proportion_column=proportion_column,
+        denominator_column=denominator_column,
+        baseline_start=baseline_start,
+        baseline_end=baseline_end,
+    )
+    result = monitor_p_chart(
+        df=df,
+        limits=limits,
+        monitoring_start=monitoring_start,
+        monitoring_end=monitoring_end,
+        two_sided=two_sided,
+        alert_on_missing=alert_on_missing,
+    )
+    out_file = Path(output_path)
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    result.records_df.to_csv(out_file, index=False)
+    return result.records_df
+
+
+def main(args: list[str] | None = None) -> None:
+    """CLI entry point for calibrating and generating Shewhart and p-chart monitoring tables."""
+    import argparse
+
+    repo_root = Path(__file__).resolve().parents[2]
+    parser = argparse.ArgumentParser(
+        description="Calibrate and execute Phase II Shewhart individuals and attribute p-chart monitoring."
+    )
+    parser.add_argument(
+        "--base-dir",
+        "-b",
+        type=Path,
+        default=repo_root,
+        help="Project root directory.",
+    )
+    parser.add_argument(
+        "--shewhart-input",
+        type=Path,
+        default=None,
+        help="Input metrics CSV for Shewhart individuals (default: results/processed/daily_metrics_abrupt_shift_cnt.csv).",
+    )
+    parser.add_argument(
+        "--shewhart-output",
+        type=Path,
+        default=None,
+        help="Output CSV for Shewhart monitoring (default: results/processed/monitoring_shewhart_cnt_mean.csv).",
+    )
+    parser.add_argument(
+        "--pchart-input",
+        type=Path,
+        default=None,
+        help="Input metrics CSV for p-chart (default: results/processed/daily_metrics_gradual_null_temp.csv).",
+    )
+    parser.add_argument(
+        "--pchart-output",
+        type=Path,
+        default=None,
+        help="Output CSV for p-chart monitoring (default: results/processed/monitoring_p_chart_temp_null_rate.csv).",
+    )
+
+    parsed = parser.parse_args(args)
+    root = parsed.base_dir
+
+    sh_in = parsed.shewhart_input or root / "results/processed/daily_metrics_abrupt_shift_cnt.csv"
+    sh_out = parsed.shewhart_output or root / "results/processed/monitoring_shewhart_cnt_mean.csv"
+    p_in = parsed.pchart_input or root / "results/processed/daily_metrics_gradual_null_temp.csv"
+    p_out = parsed.pchart_output or root / "results/processed/monitoring_p_chart_temp_null_rate.csv"
+
+    print(f"Generating Shewhart Individuals monitoring: {sh_in} -> {sh_out}")
+    generate_and_save_shewhart_cnt_mean(sh_in, sh_out)
+    print(f"Generating Attribute p-Chart monitoring: {p_in} -> {p_out}")
+    generate_and_save_p_chart_temp_null_rate(p_in, p_out)
+    print("Shewhart and p-chart monitoring outputs generated successfully.")
+
+
+if __name__ == "__main__":
+    main()

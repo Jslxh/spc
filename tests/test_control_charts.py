@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import tempfile
 import unittest
 from pathlib import Path
 import numpy as np
@@ -14,6 +15,9 @@ from src.spc.control_charts import (
     calibrate_p_chart,
     monitor_individuals,
     monitor_p_chart,
+    generate_and_save_shewhart_cnt_mean,
+    generate_and_save_p_chart_temp_null_rate,
+    main as control_charts_main,
 )
 
 
@@ -438,6 +442,61 @@ class TestControlCharts(unittest.TestCase):
         # Wait, on 2012-06-01 p=0.0 (start_null_rate=0.0), so first nonzero null batch is shortly after onset!
         self.assertIsNotNone(null_res.first_alert_date)
         self.assertGreaterEqual(null_res.first_alert_date, "2012-06-01")
+
+    def test_generate_and_save_shewhart_cnt_mean(self) -> None:
+        """Verify generator function produces valid Shewhart CSV matching baseline exactly."""
+        committed_shewhart = self.repo_root / "results/processed/monitoring_shewhart_cnt_mean.csv"
+        df_expected = pd.read_csv(committed_shewhart)
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            out_file = Path(tmp_dir) / "test_monitoring_shewhart.csv"
+            df_generated = generate_and_save_shewhart_cnt_mean(
+                data_path=self.abrupt_cnt_path,
+                output_path=out_file,
+            )
+
+            self.assertTrue(out_file.is_file())
+            self.assertEqual(len(df_generated), 366)
+            self.assertListEqual(
+                list(df_generated.columns),
+                ["batch_date", "metric_value", "center_line", "ucl", "lcl", "z_score", "is_alert", "violation_type"],
+            )
+            pd.testing.assert_frame_equal(df_generated, df_expected)
+
+    def test_generate_and_save_p_chart_temp_null_rate(self) -> None:
+        """Verify generator function produces valid p-chart CSV matching baseline exactly."""
+        committed_pchart = self.repo_root / "results/processed/monitoring_p_chart_temp_null_rate.csv"
+        df_expected = pd.read_csv(committed_pchart)
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            out_file = Path(tmp_dir) / "test_monitoring_pchart.csv"
+            df_generated = generate_and_save_p_chart_temp_null_rate(
+                data_path=self.gradual_null_path,
+                output_path=out_file,
+            )
+
+            self.assertTrue(out_file.is_file())
+            self.assertEqual(len(df_generated), 366)
+            self.assertListEqual(
+                list(df_generated.columns),
+                ["batch_date", "metric_value", "center_line", "ucl", "lcl", "z_score", "is_alert", "violation_type"],
+            )
+            pd.testing.assert_frame_equal(df_generated, df_expected)
+
+    def test_control_charts_cli_main(self) -> None:
+        """Verify CLI main entry point runs cleanly and generates target files."""
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            sh_out = Path(tmp_dir) / "shewhart.csv"
+            p_out = Path(tmp_dir) / "pchart.csv"
+            control_charts_main([
+                "--base-dir", str(self.repo_root),
+                "--shewhart-output", str(sh_out),
+                "--pchart-output", str(p_out),
+            ])
+            self.assertTrue(sh_out.is_file())
+            self.assertTrue(p_out.is_file())
+            self.assertEqual(len(pd.read_csv(sh_out)), 366)
+            self.assertEqual(len(pd.read_csv(p_out)), 366)
 
 
 if __name__ == "__main__":

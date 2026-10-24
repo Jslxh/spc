@@ -298,9 +298,11 @@ def evaluate_scenario(
     return outcomes
 
 
-def run_full_phase2_experiment() -> None:
+def run_full_phase2_experiment(base_dir: str | Path | None = None) -> None:
     """Execute complete Phase II monitoring and evaluation for Great Expectations."""
-    base_dir = Path("/workspace") if Path("/workspace").exists() else Path.cwd()
+    if base_dir is None:
+        base_dir = Path("/workspace") if Path("/workspace").exists() else Path.cwd()
+    base_dir = Path(base_dir)
     config_path = base_dir / "configs/gx_thresholds_daily_metrics.json"
     results_root = base_dir / "results/raw/gx"
     results_root.mkdir(parents=True, exist_ok=True)

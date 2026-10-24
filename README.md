@@ -108,7 +108,7 @@ Because Great Expectations 1.x currently requires Python $\le 3.12$, while moder
 ```bash
 .venv/bin/python -m unittest discover -s tests -p "test_*.py"
 ```
-*(Expected: 78 tests ran — 70 passed, 8 skipped due to environment boundaries).*
+*(Expected: 82 tests ran — 74 passed, 8 skipped due to environment boundaries).*
 
 **In Isolated Python 3.12 Container**:
 ```bash
@@ -119,11 +119,35 @@ docker run --rm -v $(pwd):/workspace -v /tmp/spc-gx-test:/env --entrypoint /env/
 # Run full test suite
 docker run --rm -e PYTHONPATH=/workspace -v $(pwd):/workspace -v /tmp/spc-gx-test/venv:/env/venv -w /workspace --entrypoint /env/venv/bin/python public.ecr.aws/lambda/python:3.12 -m unittest discover -s tests -p "test_*.py"
 ```
-*(Expected: 78 tests ran — 78 passed, 0 skipped, 100% passing).*
+*(Expected: 82 tests ran — 82 passed, 0 skipped, 100% passing).*
 
 ---
 
-### 2. Execute Great Expectations Phase II Baseline
+### 2. End-to-End Pipeline Reproduction (Single-Command)
+
+Execute all pipeline stages in dependency order (synthetic drift injection, daily quality metrics aggregation, Great Expectations Phase II baseline, Shewhart and $p$-chart calibration and monitoring, CUSUM and unified evaluation, and publication tables/figures):
+
+**In Isolated Python 3.12 Container (Full Reproduction)**:
+```bash
+docker run --rm -e PYTHONPATH=/workspace -v $(pwd):/workspace -v /tmp/spc-gx-test/venv:/env/venv -w /workspace --entrypoint /env/venv/bin/python public.ecr.aws/lambda/python:3.12 scripts/reproduce_pipeline.py
+```
+
+**On Host (Statistical & Classical SPC Reproduction; skips GX)**:
+```bash
+.venv/bin/python scripts/reproduce_pipeline.py --skip-gx
+```
+
+---
+
+### 3. Regenerate Shewhart and p-Chart Monitoring Series
+```bash
+.venv/bin/python -m src.spc.control_charts
+```
+Calibrates Phase I baselines and generates [`results/processed/monitoring_shewhart_cnt_mean.csv`](file:///home/jslxh/PROJETCS/spc/results/processed/monitoring_shewhart_cnt_mean.csv) and [`results/processed/monitoring_p_chart_temp_null_rate.csv`](file:///home/jslxh/PROJETCS/spc/results/processed/monitoring_p_chart_temp_null_rate.csv).
+
+---
+
+### 4. Execute Great Expectations Phase II Baseline
 ```bash
 docker run --rm -e PYTHONPATH=/workspace -v $(pwd):/workspace -v /tmp/spc-gx-test/venv:/env/venv -w /workspace --entrypoint /env/venv/bin/python public.ecr.aws/lambda/python:3.12 scripts/run_gx_baseline.py
 ```
@@ -131,7 +155,7 @@ Outputs execution logs, daily summaries, detailed assertion records, and `evalua
 
 ---
 
-### 3. Run Unified Comparative Evaluation
+### 5. Run Unified Comparative Evaluation
 ```bash
 .venv/bin/python -m src.spc.evaluation
 ```
@@ -139,7 +163,7 @@ Generates master aligned alerts [`results/processed/comparative_daily_alerts.csv
 
 ---
 
-### 4. Generate Publication Figures and Tables (300 DPI)
+### 6. Generate Publication Figures and Tables (300 DPI)
 ```bash
 docker run --rm -e PYTHONPATH=/workspace -v $(pwd):/workspace -v /tmp/spc-gx-test/venv:/env/venv -w /workspace --entrypoint /env/venv/bin/python public.ecr.aws/lambda/python:3.12 scripts/generate_publication_outputs.py
 ```
@@ -180,11 +204,12 @@ spc/
 │       ├── gx/                             # Raw Great Expectations 1.24.0 run outputs
 │       └── evaluation/                     # Final publication audit JSON & runtime snapshots
 ├── scripts/
+│   ├── reproduce_pipeline.py               # End-to-end orchestration runner (all stages in dependency order)
 │   ├── run_gx_baseline.py                  # Standalone Great Expectations Phase II runner
 │   └── generate_publication_outputs.py     # Publication figures and tables generator
 ├── src/
 │   └── spc/                                # Core SPC and monitoring package
-├── tests/                                  # 78 unit and integration tests
+├── tests/                                  # 82 unit and integration tests
 ├── requirements-gx.txt                     # Pinned dependencies for isolated Python 3.12 runtime
 ├── README.md                               # Project documentation and reproduction guide
 └── .gitignore

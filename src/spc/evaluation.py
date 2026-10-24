@@ -48,6 +48,10 @@ from typing import Any, Sequence
 import numpy as np
 import pandas as pd
 
+from src.spc.control_charts import (
+    generate_and_save_p_chart_temp_null_rate,
+    generate_and_save_shewhart_cnt_mean,
+)
 from src.spc.cusum import calibrate_gaussian_cusum, monitor_gaussian_cusum
 
 
@@ -468,6 +472,8 @@ def run_unified_evaluation(
     log_file = raw_eval_dir / "execution.log"
     logger = logging.getLogger("spc.evaluation")
     logger.setLevel(logging.INFO)
+    for h in logger.handlers:
+        h.close()
     logger.handlers.clear()
     fh = logging.FileHandler(log_file, mode="w", encoding="utf-8")
     fh.setFormatter(logging.Formatter("[%(asctime)s] %(levelname)s: %(message)s"))
@@ -475,12 +481,34 @@ def run_unified_evaluation(
 
     logger.info("=== Starting Unified SPC Evaluation ===")
 
-    # 1. Verify existence of required ground truth and monitoring artifacts
+    # 1. Verify existence of required ground truth and upstream daily metrics/GX artifacts
     for p in [gt_abrupt_path, gt_gradual_path, daily_abrupt_csv, daily_gradual_csv,
-             shewhart_cnt_csv, p_chart_temp_csv, gx_abrupt_daily_csv,
-             gx_abrupt_detailed_csv, gx_gradual_daily_csv, gx_gradual_detailed_csv]:
+             gx_abrupt_daily_csv, gx_abrupt_detailed_csv,
+             gx_gradual_daily_csv, gx_gradual_detailed_csv]:
         if not p.is_file():
             raise FileNotFoundError(f"Required artifact not found: {p}")
+
+    # Check Shewhart gap and generate if absent
+    if not shewhart_cnt_csv.is_file():
+        logger.info(f"Shewhart monitoring output absent. Generating: {shewhart_cnt_csv}")
+        df_shewhart = generate_and_save_shewhart_cnt_mean(
+            data_path=daily_abrupt_csv,
+            output_path=shewhart_cnt_csv,
+        )
+    else:
+        logger.info(f"Loading existing Shewhart monitoring artifact: {shewhart_cnt_csv}")
+        df_shewhart = pd.read_csv(shewhart_cnt_csv)
+
+    # Check p-chart gap and generate if absent
+    if not p_chart_temp_csv.is_file():
+        logger.info(f"p-chart monitoring output absent. Generating: {p_chart_temp_csv}")
+        df_pchart = generate_and_save_p_chart_temp_null_rate(
+            data_path=daily_gradual_csv,
+            output_path=p_chart_temp_csv,
+        )
+    else:
+        logger.info(f"Loading existing p-chart monitoring artifact: {p_chart_temp_csv}")
+        df_pchart = pd.read_csv(p_chart_temp_csv)
 
     # 2. Check CUSUM gap and generate if absent
     if not cusum_cnt_csv.is_file():
