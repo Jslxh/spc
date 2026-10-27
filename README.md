@@ -182,7 +182,9 @@ spc/
 │   └── processed/
 │       └── drift/                          # Injected drift datasets & ground-truth JSON files
 ├── docs/
-│   └── results_and_discussion_draft.md     # Peer-reviewed research paper draft
+│   ├── evidence_manifest.sha256            # Authoritative SHA-256 checksums protecting all 44 scientific evidence artifacts
+│   ├── final_results_audit.md              # Independent audit and verification report
+│   └── results_and_discussion_draft.md     # Peer-reviewed research paper draft (versioned via Git)
 ├── results/
 │   ├── figures/                            # 300 DPI publication plots (PNG)
 │   │   ├── abrupt_shift_monitoring.png
@@ -236,4 +238,5 @@ spc/
 - **No Universal Superiority**: No single monitoring paradigm is universally superior. Declarative threshold validation and attribute control charts excel on zero-defect pipeline quality invariants, while sequential CUSUM requires explicit seasonal decomposition (or dynamic baselining) to prevent accumulator saturation on volume metrics.
 - **Continuous CUSUM Limitation**: Standard continuous Gaussian CUSUM requires division by baseline standard deviation $\sigma_0$; it cannot be calibrated on clean zero-variance baselines ($\sigma_0 = 0.0$) without specialized discrete attribute formulations.
 - **No Statistical Significance Claims**: Consistent with empirical benchmarking standards on deterministic synthetic drift runs, no p-values, hypothesis tests, or confidence intervals are claimed.
+- **Evidence Integrity Verification**: All 44 genuine experimental evidence artifacts across `configs/`, `data/`, and `results/` are cryptographically verified via [`docs/evidence_manifest.sha256`](file:///home/jslxh/PROJETCS/spc/docs/evidence_manifest.sha256). The manifest strictly protects immutable scientific evidence; editable manuscript drafts in `docs/` are intentionally decoupled and versioned directly through Git history.
 - **Audit Verification**: All reported values, tables, and figures have been audited and verified in [`results/raw/evaluation/final_publication_audit.json`](file:///home/jslxh/PROJETCS/spc/results/raw/evaluation/final_publication_audit.json).
